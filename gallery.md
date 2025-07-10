@@ -4,6 +4,6 @@ title: Founders
 ---
 
 <div class="background" style="background-image: url('/assets/images/bg1.jpg');">
-  <h1>Welcome to My Website</h1>
+  <h1>Qui sommes nous ?</h1>
   <p>This is the homepage with a custom dark theme background.</p>
 </div>
