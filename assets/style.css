@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #ffffff;
+  background-color: #0a0f2c; /* dark blue */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 1em;
+  background-color: #101a40;
+}
+
+nav ul li a {
+  color: #ffffff;
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.background {
+  padding: 50px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 0px 0px 5px #000;
+}
