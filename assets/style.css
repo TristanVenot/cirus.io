@@ -181,3 +181,40 @@ nav a:hover {
   color: #4ecdc4;
   font-size: 1.2rem;
 }
+.roadmap-container {
+  position: relative;
+  margin: 100px auto 60px;
+  max-width: 900px;
+  height: 600px;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: whitesmoke;
+  transform: translateX(-50%);
+}
+
+.milestone {
+  position: absolute;
+  left: calc(50% + 30px);
+  width: 45%;
+  color: white;
+  text-align: left;
+}
+
+.milestone h3 {
+  margin: 0 0 5px;
+  font-size: 1.2em;
+  color: #4ecdc4;
+}
+
+.milestone p {
+  font-size: 0.95em;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0;
+}
