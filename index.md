@@ -16,40 +16,57 @@ title: Projet Cirus
 </p>
 <p>
     Cirus est né des travaux de recherche d'Arya Yazdan Panah (PhD) et de Tristan Venot (PhD.) au sein de l'Institut du Cerveau dans les équipes de rechereche Inria Aramis et Nerv spécialisées dans la neuro imagerie et les interfaces cerveau machine. Tristan (CEO) et Arya (CTO) ont intégré pour cette année l'Inria Studio afin de créer Cirus.</p>
-<div class="roadmap-container">
-  <div class="vertical-line"></div>
+<div class="tech-roadmap">
+  <div class="timeline-line"></div>
 
-  <div class="milestone" style="top: 0%;">
-    <h3>Q2 2024</h3>
-    <p>Création de l’équipe fondatrice, intégration à Inria Startup Studio.</p>
+  <div class="time-point" style="top: 0%;">
+    <div class="dot"></div>
+    <div class="hover-text">
+      <strong>Q2 2024</strong>
+      <p>Création de l’équipe fondatrice, intégration à Inria Startup Studio.</p>
+    </div>
   </div>
 
-  <div class="milestone" style="top: 20%;">
-    <h3>Q3 2024</h3>
-    <p>Conception du prototype MVP et premières itérations techniques.</p>
+  <div class="time-point" style="top: 20%;">
+    <div class="dot"></div>
+    <div class="hover-text">
+      <strong>Q3 2024</strong>
+      <p>Prototype MVP, itérations techniques, validations initiales.</p>
+    </div>
   </div>
 
-  <div class="milestone" style="top: 40%;">
-    <h3>Q4 2024</h3>
-    <p>Tests utilisateurs, ajustements produit, dépôt de brevet.</p>
+  <div class="time-point" style="top: 40%;">
+    <div class="dot"></div>
+    <div class="hover-text">
+      <strong>Q4 2024</strong>
+      <p>Tests utilisateurs, dépôt de brevet, feedback cliniques.</p>
+    </div>
   </div>
 
-  <div class="milestone" style="top: 60%;">
-    <h3>Q1 2025</h3>
-    <p>Lancement du pilote avec partenaires médicaux.</p>
+  <div class="time-point" style="top: 60%;">
+    <div class="dot"></div>
+    <div class="hover-text">
+      <strong>Q1 2025</strong>
+      <p>Lancement du pilote avec des partenaires médicaux sélectionnés.</p>
+    </div>
   </div>
 
-  <div class="milestone" style="top: 80%;">
-    <h3>Q2 2025</h3>
-    <p>Recherche de fonds d’amorçage et développement commercial.</p>
+  <div class="time-point" style="top: 80%;">
+    <div class="dot"></div>
+    <div class="hover-text">
+      <strong>Q2 2025</strong>
+      <p>Recherche de financement, optimisation du produit.</p>
+    </div>
   </div>
 
-  <div class="milestone" style="top: 100%;">
-    <h3>Q3 2025</h3>
-    <p>Extension du produit, scalabilité et industrialisation.</p>
+  <div class="time-point" style="top: 100%;">
+    <div class="dot"></div>
+    <div class="hover-text">
+      <strong>Q3 2025</strong>
+      <p>Industrialisation, déploiement commercial, internationalisation.</p>
+    </div>
   </div>
 </div>
-
 </div>
 
 
