@@ -20,53 +20,48 @@ title: Projet Cirus
   <div class="timeline-line"></div>
 
   <div class="time-point" style="top: 0%;">
-    <div class="dot"></div>
+    <div class="circle">Q2<br>2024</div>
     <div class="hover-text">
-      <strong>Q2 2024</strong>
       <p>Création de l’équipe fondatrice, intégration à Inria Startup Studio.</p>
     </div>
   </div>
 
-  <div class="time-point" style="top: 20%;">
-    <div class="dot"></div>
+  <div class="time-point" style="top: 18%;">
+    <div class="circle">Q3<br>2024</div>
     <div class="hover-text">
-      <strong>Q3 2024</strong>
       <p>Prototype MVP, itérations techniques, validations initiales.</p>
     </div>
   </div>
 
-  <div class="time-point" style="top: 40%;">
-    <div class="dot"></div>
+  <div class="time-point" style="top: 36%;">
+    <div class="circle">Q4<br>2024</div>
     <div class="hover-text">
-      <strong>Q4 2024</strong>
       <p>Tests utilisateurs, dépôt de brevet, feedback cliniques.</p>
     </div>
   </div>
 
-  <div class="time-point" style="top: 60%;">
-    <div class="dot"></div>
+  <div class="time-point" style="top: 54%;">
+    <div class="circle">Q1<br>2025</div>
     <div class="hover-text">
-      <strong>Q1 2025</strong>
       <p>Lancement du pilote avec des partenaires médicaux sélectionnés.</p>
     </div>
   </div>
 
-  <div class="time-point" style="top: 80%;">
-    <div class="dot"></div>
+  <div class="time-point" style="top: 72%;">
+    <div class="circle">Q2<br>2025</div>
     <div class="hover-text">
-      <strong>Q2 2025</strong>
       <p>Recherche de financement, optimisation du produit.</p>
     </div>
   </div>
 
-  <div class="time-point" style="top: 100%;">
-    <div class="dot"></div>
+  <div class="time-point" style="top: 90%;">
+    <div class="circle">Q3<br>2025</div>
     <div class="hover-text">
-      <strong>Q3 2025</strong>
       <p>Industrialisation, déploiement commercial, internationalisation.</p>
     </div>
   </div>
 </div>
+
 </div>
 
 
