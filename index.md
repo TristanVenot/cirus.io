@@ -16,6 +16,17 @@ title: Projet Cirus
 </p>
 <p>
     Cirus est né des travaux de recherche d'Arya Yazdan Panah (PhD) et de Tristan Venot (PhD.) au sein de l'Institut du Cerveau dans les équipes de rechereche Inria Aramis et Nerv spécialisées dans la neuro imagerie et les interfaces cerveau machine. Tristan (CEO) et Arya (CTO) ont intégré pour cette année l'Inria Studio afin de créer Cirus.</p>
+    <div class="roadmap">
+    <h2>Feuille de route</h2>
+    <ul>
+      <li><strong>Q2 2024</strong> – Création de l’équipe fondatrice, intégration à Inria Startup Studio</li>
+      <li><strong>Q3 2024</strong> – Conception du prototype MVP et premières itérations techniques</li>
+      <li><strong>Q4 2024</strong> – Tests utilisateurs, ajustements produit, dépôt de brevet</li>
+      <li><strong>Q1 2025</strong> – Lancement du pilote avec partenaires médicaux</li>
+      <li><strong>Q2 2025</strong> – Recherche de fonds d’amorçage et développement commercial</li>
+      <li><strong>Q3 2025</strong> – Extension du produit, scalabilité et industrialisation</li>
+    </ul>
+  </div>
 </div>
 
 

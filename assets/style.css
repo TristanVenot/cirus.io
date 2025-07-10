@@ -142,3 +142,42 @@ nav a:hover {
 .nav-links a:hover {
   color: #4ecdc4;
 }
+
+
+.roadmap {
+  margin-top: 60px;
+  background-color: rgba(0, 0, 50, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 800px;
+  backdrop-filter: blur(4px);
+}
+
+.roadmap h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  border-bottom: 2px solid #4ecdc4;
+  padding-bottom: 10px;
+}
+
+.roadmap ul {
+  list-style: none;
+  padding: 0;
+  color: #eee;
+}
+
+.roadmap li {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+  font-size: 1rem;
+}
+
+.roadmap li::before {
+  content: '●';
+  position: absolute;
+  left: 0;
+  color: #4ecdc4;
+  font-size: 1.2rem;
+}
