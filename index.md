@@ -22,12 +22,6 @@ title: Projet Cirus
   <div class="time-point left" style="top: 0%;">
     <div class="circle">Réflexion autour du projet<br>2024</div>
     <div class="hover-text">Recherche fondamentale à l'Institut du cerveau sur les interfaces cerveau machine. Dissémination large auprès du grand public par Art Basel.</div>
-    <div class="hover-video">
-  <video muted autoplay loop playsinline>
-    <source src="{{ site.baseurl }}/assets/video/braccio_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
   </div>
 
   <div class="time-point right" style="top: 18%;">
