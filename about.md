@@ -12,5 +12,5 @@ title: Produit
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
   </div>
   <h1>Notre Produit</h1>
-  <p>This is the homepage with a custom dark theme background.</p>
+  <p>Produit tbd</p>
 </div>

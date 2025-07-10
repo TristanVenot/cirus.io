@@ -67,7 +67,7 @@ nav a:hover {
 .background {
   background-image: url('{{ site.baseurl }}/assets/images/mvp.jpg'); /* Change path as needed */
   background-size: cover;
-  background-position: center;
+  background-position: center 30%;
   padding: 80px 20px;
   color: white;
   text-shadow: 0 0 10px #000;
