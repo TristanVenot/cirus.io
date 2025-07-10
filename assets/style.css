@@ -115,3 +115,30 @@ nav a:hover {
   margin: 0;
   color: #cccccc;
 }
+
+.founders-page h1 {
+  text-align: left;         /* Align title to the left */
+  margin-left: 170px;       /* Align with founder bios and images */
+  margin-bottom: 40px;
+  color: white;
+}
+
+.nav-links {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4ecdc4;
+}
