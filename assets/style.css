@@ -285,18 +285,20 @@ nav a:hover {
 
 .tech-roadmap {
   position: relative;
-  max-width: 900px;
-  margin: 120px auto;
-  height: 750px;
+  width: 100%;
+  height: 1200px; /* adjust based on number of items */
+  margin: 100px auto;
 }
 
 .timeline-line {
   position: absolute;
   left: 50%;
+  top: 0;
   transform: translateX(-50%);
-  width: 3px;
+  width: 4px;
   height: 100%;
-  background-color: whitesmoke;
+  background-color: #ffffff55;
+  z-index: 1;
 }
 
 .time-point {
@@ -305,7 +307,8 @@ nav a:hover {
   transform: translateX(-50%);
   display: flex;
   align-items: center;
-  gap: 1.5em;
+  gap: 1.2em;
+  z-index: 2;
 }
 
 .time-point .circle {
@@ -322,7 +325,7 @@ nav a:hover {
   font-size: 1em;
   border: 2px solid white;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  z-index: 2;
+  z-index: 3;
 }
 
 .time-point .hover-text {
@@ -331,17 +334,29 @@ nav a:hover {
   background-color: rgba(0, 30, 60, 0.9);
   color: white;
   padding: 18px 24px;
-  max-width: 400px;
-  font-size: 1.1em;
+  max-width: 360px;
+  font-size: 1.2em;
   line-height: 1.6;
   text-align: left;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-  position: relative;
-  right: 0;
-  order: -1; /* Show to the left */
+  position: absolute;
+  right: 100%; /* shows to the left */
+  margin-right: 20px;
+  transform: translateY(-50%);
 }
 
 .time-point:hover .hover-text {
   opacity: 1;
+}
+.time-point.left .hover-text {
+  right: 100%;
+  margin-right: 20px;
+  left: auto;
+}
+
+.time-point.right .hover-text {
+  left: 100%;
+  margin-left: 20px;
+  right: auto;
 }

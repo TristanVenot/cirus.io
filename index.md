@@ -19,49 +19,36 @@ title: Projet Cirus
 <div class="tech-roadmap">
   <div class="timeline-line"></div>
 
-  <div class="time-point" style="top: 0%;">
+  <div class="time-point  left" style="top: 0%;">
     <div class="circle">Q2<br>2024</div>
-    <div class="hover-text">
-      <p>Création de l’équipe fondatrice, intégration à Inria Startup Studio.</p>
-    </div>
+    <div class="hover-text">Création de l’équipe fondatrice, intégration à Inria Startup Studio.</div>
   </div>
 
-  <div class="time-point" style="top: 18%;">
+  <div class="time-point right" style="top: 18%;">
     <div class="circle">Q3<br>2024</div>
-    <div class="hover-text">
-      <p>Prototype MVP, itérations techniques, validations initiales.</p>
-    </div>
+    <div class="hover-text">Prototype MVP, itérations techniques, validations initiales.</div>
   </div>
 
-  <div class="time-point" style="top: 36%;">
+  <div class="time-point  left" style="top: 36%;">
     <div class="circle">Q4<br>2024</div>
-    <div class="hover-text">
-      <p>Tests utilisateurs, dépôt de brevet, feedback cliniques.</p>
-    </div>
+    <div class="hover-text">Tests utilisateurs, dépôt de brevet, feedback cliniques.</div>
   </div>
 
-  <div class="time-point" style="top: 54%;">
+  <div class="time-point right" style="top: 54%;">
     <div class="circle">Q1<br>2025</div>
-    <div class="hover-text">
-      <p>Lancement du pilote avec des partenaires médicaux sélectionnés.</p>
-    </div>
+    <div class="hover-text">Lancement du pilote avec des partenaires médicaux sélectionnés.</div>
   </div>
 
-  <div class="time-point" style="top: 72%;">
+  <div class="time-point  left" style="top: 72%;">
     <div class="circle">Q2<br>2025</div>
-    <div class="hover-text">
-      <p>Recherche de financement, optimisation du produit.</p>
-    </div>
+    <div class="hover-text">Recherche de financement, optimisation du produit.</div>
   </div>
 
-  <div class="time-point" style="top: 90%;">
+  <div class="time-point right" style="top: 90%;">
     <div class="circle">Q3<br>2025</div>
-    <div class="hover-text">
-      <p>Industrialisation, déploiement commercial, internationalisation.</p>
-    </div>
+    <div class="hover-text">Industrialisation, déploiement commercial, internationalisation.</div>
   </div>
 </div>
-
 </div>
 
 
