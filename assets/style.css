@@ -286,7 +286,7 @@ nav a:hover {
 .tech-roadmap {
   position: relative;
   width: 100%;
-  height: 1200px; /* adjust based on number of items */
+  height: 1200px; /* adjust if needed */
   margin: 100px auto;
 }
 
@@ -304,10 +304,9 @@ nav a:hover {
 .time-point {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); /* Always center the circle */
   display: flex;
   align-items: center;
-  gap: 1.2em;
   z-index: 2;
 }
 
@@ -324,7 +323,7 @@ nav a:hover {
   font-weight: bold;
   font-size: 1em;
   border: 2px solid white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   z-index: 3;
 }
 
@@ -339,24 +338,26 @@ nav a:hover {
   line-height: 1.6;
   text-align: left;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   position: absolute;
-  right: 100%; /* shows to the left */
-  margin-right: 20px;
+  top: 50%;
   transform: translateY(-50%);
+  z-index: 2;
 }
 
+/* Hover behavior */
 .time-point:hover .hover-text {
   opacity: 1;
 }
+
+/* Position hover-text to the LEFT */
 .time-point.left .hover-text {
   right: 100%;
   margin-right: 20px;
-  left: auto;
 }
 
+/* Position hover-text to the RIGHT */
 .time-point.right .hover-text {
   left: 100%;
   margin-left: 20px;
-  right: auto;
 }

@@ -19,7 +19,7 @@ title: Projet Cirus
 <div class="tech-roadmap">
   <div class="timeline-line"></div>
 
-  <div class="time-point  left" style="top: 0%;">
+  <div class="time-point left" style="top: 0%;">
     <div class="circle">Q2<br>2024</div>
     <div class="hover-text">Création de l’équipe fondatrice, intégration à Inria Startup Studio.</div>
   </div>
@@ -29,7 +29,7 @@ title: Projet Cirus
     <div class="hover-text">Prototype MVP, itérations techniques, validations initiales.</div>
   </div>
 
-  <div class="time-point  left" style="top: 36%;">
+  <div class="time-point left" style="top: 36%;">
     <div class="circle">Q4<br>2024</div>
     <div class="hover-text">Tests utilisateurs, dépôt de brevet, feedback cliniques.</div>
   </div>
@@ -39,7 +39,7 @@ title: Projet Cirus
     <div class="hover-text">Lancement du pilote avec des partenaires médicaux sélectionnés.</div>
   </div>
 
-  <div class="time-point  left" style="top: 72%;">
+  <div class="time-point left" style="top: 72%;">
     <div class="circle">Q2<br>2025</div>
     <div class="hover-text">Recherche de financement, optimisation du produit.</div>
   </div>
@@ -49,6 +49,7 @@ title: Projet Cirus
     <div class="hover-text">Industrialisation, déploiement commercial, internationalisation.</div>
   </div>
 </div>
+
 </div>
 
 
