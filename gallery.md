@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Founders
 ---
 
 <div class="background" style="background-image: url('/assets/images/bg1.jpg');">

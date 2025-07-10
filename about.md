@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Produit
 ---
 
 <div class="background" style="background-image: url('/assets/images/mvp.jpg');">
