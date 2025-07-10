@@ -1,0 +1,16 @@
+title: Cirus
+theme: minima
+markdown: kramdown
+
+# Navigation links
+nav:
+  - title: Cirus Project
+    url: /
+  - title: Notre produit
+    url: /about.html
+  - title: Notre Technologie
+    url: /projects.html
+  - title: Qui sommes-nous ?
+    url: /gallery.html
+  - title: Pour nous contacter
+    url: /contact.html
