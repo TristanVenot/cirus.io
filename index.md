@@ -3,7 +3,7 @@ layout: default
 title: Projet Cirus
 ---
 
-<div class="background" style="background-image: url('/assets/images/mvp.jpg');">
+<div class="background" style="background-image: url('{{ site.baseurl }}/assets/images/mvp.jpg');">
   <h1>Cirus Project</h1>
   <p>Cirus est une entreprise française opérant dans le domaine des interfaces cerveau-machine (BCI) et de l'intelligence artificielle. L'entreprise développe et commercialise des plateformes de recherche et les modèles de fondations associés pour les besoins spécifiques des entreprises.
 

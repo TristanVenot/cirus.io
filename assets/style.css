@@ -65,7 +65,7 @@ nav a:hover {
 
 /* === Optional Background Image === */
 .background {
-  background-image: url('/assets/images/bg1.jpg'); /* Change path as needed */
+  background-image: url('{{ site.baseurl }}/assets/images/mvp.jpg'); /* Change path as needed */
   background-size: cover;
   background-position: center;
   padding: 80px 20px;

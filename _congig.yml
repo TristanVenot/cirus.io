@@ -1,6 +1,7 @@
 title: Cirus
 theme: minima
 markdown: kramdown
+baseurl: "/cirus.io/"
 
 # Navigation links
 nav:
