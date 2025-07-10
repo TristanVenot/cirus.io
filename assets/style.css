@@ -1,6 +1,6 @@
 /* === Base Layout === */
 body {
-  margin: 10;
+  margin: 5;
   padding: 0;
   font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
   background-color: #0a0f2c;  /* deep dark blue */
@@ -310,8 +310,8 @@ nav a:hover {
 
 /* Circle centered on the line */
 .time-point .circle {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 1000px;
   background-color: #4ecdc4;
   color: #001f3f;
   border-radius: 50%;
@@ -362,4 +362,40 @@ nav a:hover {
 .time-point.right .hover-text {
   left: 100%;
   margin-left: 20px;
+}
+
+.time-point .hover-video {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  background-color: #000;
+  padding: 8px;
+  border-radius: 12px;
+  z-index: 2;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Show video on hover */
+.time-point:hover .hover-video {
+  opacity: 1;
+}
+
+.time-point.left .hover-video {
+  right: 100%;
+  margin-right: 20px;
+}
+
+.time-point.right .hover-video {
+  left: 100%;
+  margin-left: 20px;
+}
+
+.hover-video video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }

@@ -20,33 +20,39 @@ title: Projet Cirus
   <div class="timeline-line"></div>
 
   <div class="time-point left" style="top: 0%;">
-    <div class="circle">Q2<br>2024</div>
-    <div class="hover-text">Création de l’équipe fondatrice, intégration à Inria Startup Studio.</div>
+    <div class="circle">Réflexion autour du projet<br>2024</div>
+    <div class="hover-text">Recherche fondamentale à l'Institut du cerveau sur les interfaces cerveau machine. Dissémination large auprès du grand public par Art Basel.</div>
+    <div class="hover-video">
+  <video muted autoplay loop playsinline>
+    <source src="{{ site.baseurl }}/assets/video/braccio_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
   </div>
 
   <div class="time-point right" style="top: 18%;">
-    <div class="circle">Q3<br>2024</div>
-    <div class="hover-text">Prototype MVP, itérations techniques, validations initiales.</div>
+    <div class="circle">Création de l'équipe et Intégration Inria Studio<br>2025</div>
+    <div class="hover-text">Création du projet, identification du besoin client autour d'acteurs industriels en lien avec le laboratoire, structuration de l'équipe et du projet. Intégration à l'Inria Studio</div>
   </div>
 
   <div class="time-point left" style="top: 36%;">
-    <div class="circle">Q4<br>2024</div>
-    <div class="hover-text">Tests utilisateurs, dépôt de brevet, feedback cliniques.</div>
+    <div class="circle">Incubation Inria studio<br>2025-2026</div>
+    <div class="hover-text">Prototype MVP, itérations techniques, validations initiales.</div>
   </div>
 
   <div class="time-point right" style="top: 54%;">
-    <div class="circle">Q1<br>2025</div>
-    <div class="hover-text">Lancement du pilote avec des partenaires médicaux sélectionnés.</div>
+    <div class="circle">Création de l'entreprise<br>2026</div>
+    <div class="hover-text">Lancement du pilote avec des partenaires publiques/industriels sélectionnés.</div>
   </div>
 
   <div class="time-point left" style="top: 72%;">
-    <div class="circle">Q2<br>2025</div>
+    <div class="circle">Levée de fond<br>2026</div>
     <div class="hover-text">Recherche de financement, optimisation du produit.</div>
   </div>
 
   <div class="time-point right" style="top: 90%;">
-    <div class="circle">Q3<br>2025</div>
-    <div class="hover-text">Industrialisation, déploiement commercial, internationalisation.</div>
+    <div class="circle">Diversification<br>2027</div>
+    <div class="hover-text">Industrialisation d'un produit, déploiement commercial, internationalisation.</div>
   </div>
 </div>
 
