@@ -9,10 +9,10 @@ title: Projet Cirus
 
 Cirus est né des travaux de recherche d'Arya Yazdan Panah (PhD) et de Tristan Venot (PhD.) au sein de l'Institut du Cerveau dans les équipes de rechereche Inria Aramis et Nerv spécialisées dans la neuro imagerie et les interfaces cerveau machine. Tristan (CEO) et Arya (CTO) ont intégré pour cette année l'Inria Studio afin de créer Cirus.</p>
 <div class="button-container">
-    <a href="/about.html" class="button">About</a>
-    <a href="/projects.html" class="button">Projects</a>
-    <a href="/gallery.html" class="button">Gallery</a>
-    <a href="/contact.html" class="button">Contact</a>
+    <a href="/about" class="button">About</a>
+    <a href="/projects" class="button">Projects</a>
+    <a href="/gallery" class="button">Gallery</a>
+    <a href="/contact" class="button">Contact</a>
   </div>
 </div>
 
