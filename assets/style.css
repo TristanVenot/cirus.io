@@ -400,7 +400,7 @@ nav a:hover {
 .main-section {
   margin: 60px auto 60px auto;
   padding: 32px 24px;
-  min-height: 20vh;
+  min-height: 30vh; /* or even 40vh for more space */
   display: flex;
   flex-direction: column;
   align-items: center;
