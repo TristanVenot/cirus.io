@@ -169,8 +169,8 @@ nav a:hover {
 
 /* Circle centered on the line */
 .time-point .circle {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background-color: #214bd7;
   color: #698098;
   border-radius: 50%;
@@ -185,6 +185,9 @@ nav a:hover {
   z-index: 3;
   position: relative;
 }
+.hover-container {
+  position: relative;
+}
 
 /* Hover text hidden by default */
 .time-point .hover-text {
@@ -193,7 +196,7 @@ nav a:hover {
   background-color: rgba(0, 30, 60, 0.9);
   color: white;
   padding: 18px 24px;
-  max-width: 480px;
+  max-width: 520px;
   font-size: 1.2em;
   line-height: 1.6;
   text-align: left;
@@ -206,8 +209,13 @@ nav a:hover {
   z-index: 2;
 }
 
+/* Hover shows text and video */
+.hover-container:hover .hover-text,
+.hover-container:hover .hover-video {
+  opacity: 1;
+}
 /* Hover shows text */
-.time-point:hover .hover-text {
+/*.time-point:hover .hover-text {
   opacity: 1;
 }
 
@@ -234,15 +242,15 @@ nav a:hover {
   padding: 8px;
   border-radius: 12px;
   z-index: 2;
-  width: 720px;
+  width: 520px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 /* Show video on hover */
-.time-point:hover .hover-video {
+/*.time-point:hover .hover-video {
   opacity: 1;
 }
-
+*/
 .time-point.left .hover-video {
   right: 100%;
   margin-right: 20px;
