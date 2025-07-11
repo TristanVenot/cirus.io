@@ -418,3 +418,9 @@ nav a:hover {
   .big-desc { font-size: 1.1em; }
   .main-section { margin: 30px 0; }
 }
+
+.hide-on-scroll {
+  opacity: 0 !important;
+  pointer-events: none;
+  transition: opacity 0.5s cubic-bezier(.4,2,.3,1);
+}

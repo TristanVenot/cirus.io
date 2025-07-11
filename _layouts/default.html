@@ -70,6 +70,20 @@
       btn.onclick = () => window.scrollTo({top:0, behavior:'smooth'});
     }
   });
+
+  // Hide/show sections on scroll direction
+  let lastScrollY = window.scrollY;
+  window.addEventListener('scroll', function() {
+    const hideables = document.querySelectorAll('.hideable-section');
+    if (window.scrollY > lastScrollY && window.scrollY > 100) {
+      // Scrolling down
+      hideables.forEach(el => el.classList.add('hide-on-scroll'));
+    } else {
+      // Scrolling up
+      hideables.forEach(el => el.classList.remove('hide-on-scroll'));
+    }
+    lastScrollY = window.scrollY;
+  });
 </script>
 </body>
 </html>

@@ -25,17 +25,17 @@ title: Projet Cirus
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
   </div>
 
-  <section class="main-section scroll-animate">
+  <section class="main-section scroll-animate hideable-section">
     <h1 class="fancy-text">Projet Cirus</h1>
   </section>
 
-  <section class="main-section scroll-animate">
+  <section class="main-section scroll-animate hideable-section">
     <p class="big-desc">
       Cirus est une entreprise française opérant dans le domaine des interfaces cerveau-machine (BCI) et de l'intelligence artificielle.<br>
       L'entreprise développe et commercialise des plateformes de recherche et les modèles de fondations associés pour les besoins spécifiques des entreprises.
     </p>
    </section>
-   <section class="main-section scroll-animate">
+   <section class="main-section scroll-animate hideable-section">
     <h1 class="fancy-text"></h1>
     <p class="big-desc">
       Cirus est né des travaux de recherche d'Arya Yazdan Panah (PhD) et de Tristan Venot (PhD.) au sein de l'Institut du Cerveau dans les équipes de rechereche Inria Aramis et Nerv spécialisées dans la neuro imagerie et les interfaces cerveau machine.<br>
@@ -43,8 +43,7 @@ title: Projet Cirus
     </p>
   </section>
 
-  <section class="main-section scroll-animate">
-    <h1 class="fancy-text">Roadmap</h1>
+  <section class="main-section scroll-animate hideable-section">
     <div class="tech-roadmap" id="roadmap">
       <div class="timeline-line"></div>
 
