@@ -3,7 +3,21 @@ layout: default
 title: Projet Cirus
 ---
 
-<div class="background" style="background-image: url('{{ site.baseurl }}/assets/images/face.png');">
+<!-- Intro Section -->
+<div id="intro" class="intro-section">
+  <video autoplay muted loop id="bg-video">
+    <source src="{{ site.baseurl }}/assets/video/neurons.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="intro-overlay">
+    <h1>Welcome to <span style="color:#4da6ff">Cirus</span></h1>
+    <h2>AI and BCI — from researchers to real-world use cases</h2>
+    <button onclick="scrollToMain()">Enter</button>
+  </div>
+</div>
+
+
+<div class="background" style="background-image: url('{{ site.baseurl }}/assets/images/face2.png');">
   <div class="nav-links">
     <a href="{{ site.baseurl }}">Home</a>
     <a href="{{ site.baseurl }}/about.html">Produit</a>

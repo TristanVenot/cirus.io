@@ -266,3 +266,63 @@ nav a:hover {
   height: auto;
   border-radius: 8px;
 }
+
+.intro-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+#bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.intro-overlay {
+  z-index: 2;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.intro-overlay h1 {
+  font-size: 4em;
+  margin: 0.2em 0;
+}
+
+.intro-overlay h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+
+.intro-overlay button {
+  background-color: #214bd7;
+  color: white;
+  border: none;
+  padding: 0.8em 2em;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.intro-overlay button:hover {
+  background-color: #1a3cb3;
+}

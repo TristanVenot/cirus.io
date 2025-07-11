@@ -12,5 +12,16 @@
   <main>
     {{ content }}
   </main>
+  <script>
+      function scrollToMain() {
+        document.getElementById('intro').style.opacity = '0';
+        document.getElementById('intro').style.pointerEvents = 'none';
+        
+        setTimeout(() => {
+          document.getElementById('intro').style.display = 'none';
+          document.getElementById('main-content').scrollIntoView({ behavior: 'smooth' });
+        }, 500);
+      }
+    </script>
 </body>
 </html>
