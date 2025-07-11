@@ -3,14 +3,14 @@ body {
   margin: 5;
   padding: 0;
   font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
-  background-color: #0a0f2c;  /* deep dark blue */
+  background-color: #030c3a;  /* deep dark blue */
   color: #ffffff;
   line-height: 1.6;
 }
 
 /* === Navigation Bar === */
 nav {
-  background-color: #101a40;
+  background-color: #030c3a;
   padding: 1em 2em;
 }
 
@@ -286,7 +286,6 @@ nav a:hover {
   top: 50%;
   left: 100%;
   transform: translateY(-50%);
-  background-color: #190572;
   padding: 8px;
   border-radius: 12px;
   z-index: 2;
@@ -412,6 +411,7 @@ nav a:hover {
   color: #e6e6e6;
   letter-spacing: 0.01em;
   animation: fancy-pop 1.2s cubic-bezier(.4,2,.3,1);
+  text-align: center;
 }
 
 @media (max-width: 700px) {

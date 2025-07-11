@@ -16,7 +16,7 @@ title: Projet Cirus
 </div>
 
 
-<div id="main-content" class="background" style="background-image: url('{{ site.baseurl }}/assets/images/face2.jpg');">
+<div id="main-content" class="background">
   <div class="nav-links">
     <a href="{{ site.baseurl }}">Home</a>
     <a href="{{ site.baseurl }}/about.html">Produit</a>
