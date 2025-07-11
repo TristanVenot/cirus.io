@@ -84,6 +84,35 @@
     }
     lastScrollY = window.scrollY;
   });
+
+  // Hide previous section when scrolling down, show when scrolling up
+  document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('.hideable-section');
+    let lastVisible = 0;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const idx = Array.from(sections).indexOf(entry.target);
+        if (entry.isIntersecting) {
+          // Show this section
+          entry.target.classList.remove('hide-on-scroll');
+          // Hide previous section if scrolling down
+          if (idx > lastVisible) {
+            if (sections[lastVisible]) sections[lastVisible].classList.add('hide-on-scroll');
+          }
+          // Show next section if scrolling up
+          if (idx < lastVisible) {
+            if (sections[lastVisible]) sections[lastVisible].classList.remove('hide-on-scroll');
+          }
+          lastVisible = idx;
+        }
+      });
+    }, {
+      threshold: 0.6 // Adjust for when to trigger (60% visible)
+    });
+
+    sections.forEach(section => observer.observe(section));
+  });
 </script>
 </body>
 </html>
