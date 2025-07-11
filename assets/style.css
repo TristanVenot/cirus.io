@@ -246,7 +246,9 @@ nav a:hover {
   background-color: rgba(0, 30, 60, 0.9);
   color: white;
   padding: 18px 24px;
-  max-width: 700px;
+  max-width: 420px;      /* Reduce max-width for better fit on most screens */
+  min-width: 260px;      /* Add a minimum width */
+  width: max-content;    /* Allow to expand to fit content */
   font-size: 1.2em;
   line-height: 1.6;
   text-align: left;
@@ -257,6 +259,7 @@ nav a:hover {
   transform: translateY(-50%);
   white-space: normal;
   z-index: 2;
+  word-break: break-word; /* Ensure long words wrap */
 }
 
 /* Hover shows text and video */
@@ -426,7 +429,7 @@ nav a:hover {
 }
 
 .tech-roadmap {
-  margin-top: 80px !important;   /* More space above roadmap */
+  margin-top: 150px !important;   /* More space above roadmap */
   margin-bottom: 40px;
   max-width: 900px;
   margin-left: auto;
