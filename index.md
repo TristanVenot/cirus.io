@@ -14,7 +14,15 @@ title: Projet Cirus
     <button onclick="scrollToMain()">Enter</button>
   </div>
 </div>
-
+<div class="background" style="background-image: url('{{ site.baseurl }}/assets/images/face2.png');">
+  <div class="nav-links">
+    <a href="{{ site.baseurl }}">Home</a>
+    <a href="{{ site.baseurl }}/about.html">Produit</a>
+    <a href="{{ site.baseurl }}/projects.html">Technologie</a>
+    <a href="{{ site.baseurl }}/gallery.html">Founders</a>
+    <a href="{{ site.baseurl }}/contact.html">Contact</a>
+  </div>
+</div>
 <!-- First text section (appears after the video intro) -->
 <section class="section-text-intro">
   <h1 class="headline">Projet Cirus</h1>
