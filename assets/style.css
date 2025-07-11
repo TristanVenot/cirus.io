@@ -169,12 +169,13 @@ nav a:hover {
 
 /* Fancy, bigger text */
 .fancy-text {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 900;
   color: #4da6ff;
   text-shadow: 0 8px 32px #1a237e99, 0 2px 0 #fff;
   letter-spacing: 2px;
-  margin-bottom: 0.7em;
+  margin-bottom: 0.4em;
+  margin-top: 0.4em;
   animation: fancy-pop 1.2s cubic-bezier(.4,2,.3,1);
 }
 
@@ -391,4 +392,29 @@ nav a:hover {
 #main-content.visible {
   opacity: 1;
   pointer-events: auto;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto 40px auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.big-desc {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.25;
+  margin: 20px 0;
+  color: #e6e6e6;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 700px) {
+  .fancy-text { font-size: 2em; }
+  .big-desc { font-size: 1.1em; }
+  .main-section { margin: 30px 0; }
 }
