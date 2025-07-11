@@ -28,6 +28,17 @@
       }, 500);
     }
   }
+  function handleScrollReveal() {
+    document.querySelectorAll('.fade-in-on-scroll').forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.85) {
+        el.classList.add('visible');
+      }
+    });
+  }
+
+  document.addEventListener('scroll', handleScrollReveal);
+  document.addEventListener('DOMContentLoaded', handleScrollReveal);
 </script>
 </body>
 </html>
