@@ -12,6 +12,7 @@
   <main>
     {{ content }}
   </main>
+  <button id="toTopBtn" style="display:none;position:fixed;bottom:40px;right:40px;z-index:9999;background:#214bd7;color:#fff;border:none;padding:1em 2em;border-radius:8px;font-size:1.2em;box-shadow:0 4px 24px #0008;cursor:pointer;transition:background 0.3s;">↑ Top</button>
 <script>
   function scrollToMain() {
     const intro = document.getElementById('intro');
@@ -51,6 +52,23 @@
     }
     window.addEventListener('scroll', revealOnScroll);
     revealOnScroll();
+  });
+
+  // Show/hide "to top" button
+  window.addEventListener('scroll', function() {
+    const btn = document.getElementById('toTopBtn');
+    if (!btn) return;
+    if (window.scrollY > 300) {
+      btn.style.display = 'block';
+    } else {
+      btn.style.display = 'none';
+    }
+  });
+  document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.getElementById('toTopBtn');
+    if (btn) {
+      btn.onclick = () => window.scrollTo({top:0, behavior:'smooth'});
+    }
   });
 </script>
 </body>
