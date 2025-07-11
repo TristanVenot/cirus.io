@@ -8,6 +8,13 @@
   <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favico.jpg">
 </head>
 <body>
+  <div class="nav-links">
+    <a href="{{ site.baseurl }}">Home</a>
+    <a href="{{ site.baseurl }}/about.html">Produit</a>
+    <a href="{{ site.baseurl }}/projects.html">Technologie</a>
+    <a href="{{ site.baseurl }}/gallery.html">Founders</a>
+    <a href="{{ site.baseurl }}/contact.html">Contact</a>
+  </div>
   {% include header.html %}
   <main>
     {{ content }}
@@ -28,6 +35,51 @@
       }, 500);
     }
   }
+  function handleScrollReveal() {
+    document.querySelectorAll('.fade-in-on-scroll').forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.85) {
+        el.classList.add('visible');
+      }
+    });
+  }
+
+  document.addEventListener('scroll', handleScrollReveal);
+  document.addEventListener('DOMContentLoaded', handleScrollReveal);
+
+  function revealSectionsOnScroll() {
+    const sections = document.querySelectorAll('.section');
+    const scrollY = window.scrollY + window.innerHeight * 0.6;
+
+    sections.forEach((section, index) => {
+      const rect = section.getBoundingClientRect();
+      const top = section.offsetTop;
+      const height = section.offsetHeight;
+
+      if (scrollY > top && scrollY < top + height) {
+        section.classList.add('visible');
+      } else {
+        section.classList.remove('visible');
+      }
+    });
+
+    // Back to top visibility
+    const btn = document.getElementById('back-to-top');
+    if (window.scrollY > 300) {
+      btn.classList.add('show');
+    } else {
+      btn.classList.remove('show');
+    }
+  }
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  document.addEventListener('DOMContentLoaded', revealSectionsOnScroll);
+  window.addEventListener('scroll', revealSectionsOnScroll);
 </script>
+
+
 </body>
 </html>
