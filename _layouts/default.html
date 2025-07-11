@@ -28,6 +28,30 @@
       }, 500);
     }
   }
+
+  // Scroll animation for texts and roadmap
+  document.addEventListener('DOMContentLoaded', function() {
+    const scrollEls = document.querySelectorAll('.scroll-animate');
+    const roadmap = document.getElementById('roadmap');
+
+    function revealOnScroll() {
+      const triggerBottom = window.innerHeight * 0.92;
+      scrollEls.forEach(el => {
+        const boxTop = el.getBoundingClientRect().top;
+        if (boxTop < triggerBottom) {
+          el.classList.add('visible');
+        }
+      });
+      if (roadmap) {
+        const roadmapTop = roadmap.getBoundingClientRect().top;
+        if (roadmapTop < window.innerHeight * 0.95) {
+          roadmap.classList.add('visible');
+        }
+      }
+    }
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll();
+  });
 </script>
 </body>
 </html>
