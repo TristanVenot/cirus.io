@@ -16,14 +16,14 @@
 <script>
   function scrollToMain() {
     const intro = document.getElementById('intro');
+    const main = document.getElementById('main-content');
     if (intro) {
       intro.style.opacity = '0';
       intro.style.pointerEvents = 'none';
-
       setTimeout(() => {
         intro.style.display = 'none';
-        const main = document.getElementById('main-content');
         if (main) {
+          main.classList.add('visible');
           main.scrollIntoView({ behavior: 'smooth' });
         }
       }, 500);
