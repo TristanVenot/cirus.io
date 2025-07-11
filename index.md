@@ -5,9 +5,8 @@ title: Projet Cirus
 
 <!-- Intro Section -->
 <div id="intro" class="intro-section">
-  <video autoplay muted loop id="bg-video">
-    <source src="{{ site.baseurl }}/assets/video/neurons.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+  <video autoplay muted loop playsinline id="bg-video" class="fade-video">
+  <source src="{{ site.baseurl }}/assets/video/neurons.mp4" type="video/mp4">
   </video>
   <div class="intro-overlay">
     <h1>Welcome to <span style="color:#4da6ff">Cirus</span></h1>
