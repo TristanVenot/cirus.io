@@ -27,9 +27,6 @@ title: Projet Cirus
 
   <section class="main-section scroll-animate hideable-section">
     <h1 class="fancy-text">Projet Cirus</h1>
-  </section>
-
-  <section class="main-section scroll-animate hideable-section">
     <p class="big-desc">
       Cirus est une entreprise française opérant dans le domaine des interfaces cerveau-machine (BCI) et de l'intelligence artificielle.<br>
       L'entreprise développe et commercialise des plateformes de recherche et les modèles de fondations associés pour les besoins spécifiques des entreprises.
