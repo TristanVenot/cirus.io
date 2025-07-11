@@ -32,6 +32,11 @@ title: Projet Cirus
       L'entreprise développe et commercialise des plateformes de recherche et les modèles de fondations associés pour les besoins spécifiques des entreprises.
     </p>
    </section>
+
+  <section class="main-section scroll-animate hideable-section">
+    <h1 class="fancy-text"></h1>
+  </section>
+
    <section class="main-section scroll-animate hideable-section">
     <h1 class="fancy-text"></h1>
     <p class="big-desc">
@@ -39,7 +44,9 @@ title: Projet Cirus
       Tristan (CEO) et Arya (CTO) ont intégré pour cette année l'Inria Studio afin de créer Cirus.
     </p>
   </section>
-
+  <section class="main-section scroll-animate hideable-section">
+    <h1 class="fancy-text"></h1>
+  </section>
   <section class="main-section scroll-animate hideable-section">
     <div class="tech-roadmap" id="roadmap">
       <div class="timeline-line"></div>
