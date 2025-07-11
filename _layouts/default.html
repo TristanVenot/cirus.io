@@ -71,19 +71,7 @@
     }
   });
 
-  // Hide/show sections on scroll direction
-  let lastScrollY = window.scrollY;
-  window.addEventListener('scroll', function() {
-    const hideables = document.querySelectorAll('.hideable-section');
-    if (window.scrollY > lastScrollY && window.scrollY > 100) {
-      // Scrolling down
-      hideables.forEach(el => el.classList.add('hide-on-scroll'));
-    } else {
-      // Scrolling up
-      hideables.forEach(el => el.classList.remove('hide-on-scroll'));
-    }
-    lastScrollY = window.scrollY;
-  });
+  
 
   // Hide previous section when scrolling down, show when scrolling up
   document.addEventListener('DOMContentLoaded', function() {
