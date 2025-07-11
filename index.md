@@ -24,21 +24,22 @@ title: Projet Cirus
   </div>
 </div>
 <!-- First text section (appears after the video intro) -->
-<section class="section-text-intro">
-  <h1 class="headline">Projet Cirus</h1>
+<<div class="section fade-in-on-scroll">
+  <div>
+    <h1>Bienvenue chez <span style="color:#4da6ff">Cirus</span></h1>
   <p class="lead">Cirus est une entreprise française opérant dans le domaine des interfaces cerveau-machine (BCI) et de l'intelligence artificielle. L'entreprise développe et commercialise des plateformes de recherche et les modèles de fondations associés pour les besoins spécifiques des entreprises.
-</p></p>
+</p>
 </section>
 
 <!-- Second text (fade-in on scroll) -->
-<section class="section-text-description">
+<div class="section fade-in-on-scroll">
   <p class="fade-in-on-scroll">
     Cirus est né des travaux de recherche d’Arya Yazdan Panah (PhD) et de Tristan Venot (PhD) à l’Institut du Cerveau, au sein des équipes Inria Aramis et Nerv. Spécialisés en neuro-imagerie et interfaces cerveau-machine, Tristan (CEO) et Arya (CTO) intègrent l’Inria Studio pour donner naissance à Cirus.
   </p>
 </section>
 
 <!-- Roadmap heading (also fades in later) -->
-<section class="section-roadmap" id="roadmap-section">
+<div class="section fade-in-on-scroll" id="roadmap-start">
   <h1 class="fade-in-on-scroll">Roadmap</h1>
   <div class="tech-roadmap">
     <div class="timeline-line"></div>
@@ -102,7 +103,8 @@ title: Projet Cirus
   </div>
 
 </section>
-
+<!-- Back to top button -->
+<button id="back-to-top" onclick="scrollToTop()">↑ Haut de page</button>
 </div>
 
 

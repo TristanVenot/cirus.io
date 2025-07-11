@@ -39,6 +39,40 @@
 
   document.addEventListener('scroll', handleScrollReveal);
   document.addEventListener('DOMContentLoaded', handleScrollReveal);
+
+  function revealSectionsOnScroll() {
+    const sections = document.querySelectorAll('.section');
+    const scrollY = window.scrollY + window.innerHeight * 0.6;
+
+    sections.forEach((section, index) => {
+      const rect = section.getBoundingClientRect();
+      const top = section.offsetTop;
+      const height = section.offsetHeight;
+
+      if (scrollY > top && scrollY < top + height) {
+        section.classList.add('visible');
+      } else {
+        section.classList.remove('visible');
+      }
+    });
+
+    // Back to top visibility
+    const btn = document.getElementById('back-to-top');
+    if (window.scrollY > 300) {
+      btn.classList.add('show');
+    } else {
+      btn.classList.remove('show');
+    }
+  }
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  document.addEventListener('DOMContentLoaded', revealSectionsOnScroll);
+  window.addEventListener('scroll', revealSectionsOnScroll);
 </script>
+
+
 </body>
 </html>

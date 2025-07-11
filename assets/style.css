@@ -383,3 +383,81 @@ nav a:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+/* === Sections === */
+.section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+}
+
+.section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.section p {
+  font-size: 1.4rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* === Fade + scale on scroll === */
+.fade-in-on-scroll {
+  opacity: 0;
+  transform: translateY(40px) scale(0.96);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* === Show only one section at a time === */
+.section:not(.visible) {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* === Fullscreen background === */
+body {
+  margin: 0;
+  background: url('{{ site.baseurl }}/assets/images/face2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/* === Back to top button === */
+#back-to-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  background: #214bd7;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s;
+  z-index: 999;
+}
+
+#back-to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
