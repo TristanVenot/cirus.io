@@ -23,7 +23,7 @@ title: Projet Cirus
     <div class="circle">Réflexion autour du projet<br>2024</div>
     <div class="hover-text">Recherche fondamentale à l'Institut du cerveau sur les interfaces cerveau machine. Dissémination large auprès du grand public par Art Basel.</div>
   </div>
-  <div class="time-point hover-video"></div>
+  <div class="hover-video"></div>
   <div class="time-point right" style="top: 18%;">
     <div class="circle">Création de l'équipe et Intégration Inria Studio<br>2025</div>
     <div class="hover-text">Création du projet, identification du besoin client autour d'acteurs industriels en lien avec le laboratoire, structuration de l'équipe et du projet. Intégration à l'Inria Studio</div>
