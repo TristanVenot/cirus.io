@@ -18,19 +18,19 @@ title: Projet Cirus
 
 <div id="main-content" class="background">
   <div class="nav-links">
-    <a href="{{ site.baseurl }}">Home</a>
-    <a href="{{ site.baseurl }}/about.html">Produit</a>
-    <a href="{{ site.baseurl }}/projects.html">Technologie</a>
-    <a href="{{ site.baseurl }}/gallery.html">Founders</a>
-    <a href="{{ site.baseurl }}/contact.html">Contact</a>
-    <a href="{{ site.baseurl }}/index_en.md" class="lang-switch">EN</a>
-  </div>
+    <a href="{{ site.baseurl }}/index_en.md">Home</a>
+    <a href="{{ site.baseurl }}/about_en.html">Product</a>
+    <a href="{{ site.baseurl }}/projects_en.html">Technology</a>
+    <a href="{{ site.baseurl }}/gallery_en.html">Founders</a>
+    <a href="{{ site.baseurl }}/contact_en.html">Contact</a>
+    <a href="{{ site.baseurl }}/index.md" class="lang-switch">FR</a>
+  </div>  
 
   <section class="main-section scroll-animate hideable-section">
     <h1 class="fancy-text">Projet Cirus</h1>
     <p class="big-desc">
-      Cirus est une entreprise française opérant dans le domaine des interfaces cerveau-machine (BCI) et de l'intelligence artificielle.<br>
-      L'entreprise développe et commercialise des plateformes de recherche et les modèles de fondations associés pour les besoins spécifiques des entreprises.
+      Cirus is a French company operating in the field of brain-computer interfaces (BCI) and artificial intelligence. <br>
+      The company develops and markets research platforms and associated foundation models for companies target use cases.
     </p>
    </section>
 
@@ -41,8 +41,8 @@ title: Projet Cirus
    <section class="main-section scroll-animate hideable-section">
     <h1 class="fancy-text"></h1>
     <p class="big-desc">
-      Cirus est né des travaux de recherche d'Arya Yazdan Panah (PhD.) et de Tristan Venot (PhD.) au sein de l'Institut du Cerveau dans les équipes de recherche Inria Aramis et Nerv spécialisées dans la neuro imagerie et les interfaces cerveau machine.<br>
-      Tristan (CEO) et Arya (CTO) ont intégré pour cette année l'Inria Studio afin de créer Cirus.
+      Cirus was born from the research work of Arya Yazdan Panah (PhD.) and Tristan Venot (PhD.) at the Paris Brain Institute in the Inria Aramis and Nerv research teams specializing in neuroimaging and brain-machine interfaces. <br>
+      Tristan (CEO) and Arya (CTO) joined the Inria Studio for this year to create Cirus.
     </p>
   </section>
   <section class="main-section scroll-animate hideable-section">
@@ -54,9 +54,9 @@ title: Projet Cirus
 
       <div class="time-point left" style="top: 0%;">
         <div class="hover-container">
-          <div class="circle">Réflexion autour du projet<br>2024</div>
+          <div class="circle">Project maturation<br>2024</div>
           <div class="hover-text">
-            Recherche fondamentale à l'Institut du cerveau sur les interfaces cerveau machine. Dissémination large auprès du grand public avec à la présentation de la technologie à Art Basel.
+            Fundamental research at the Paris Brain Institute on brain-machine interfaces. Wide dissemination to the general public with the presentation of the technology at Art Basel.
           </div>
           <div class="hover-video">
             <video src="{{ site.baseurl }}/assets/video/braccio_video.mp4" type="video/mp4" controls></video>
@@ -66,36 +66,36 @@ title: Projet Cirus
 
       <div class="time-point right" style="top: 22%;">
         <div class="hover-container">
-          <div class="circle">Création de l'équipe et Intégration Inria Studio<br>2025</div>
+          <div class="circle">Team creation and integration to Inria Startup Studio<br>2025</div>
           <div class="hover-text">
-            Création du projet, identification du besoin client autour d'acteurs industriels en lien avec le laboratoire, structuration de l'équipe et du projet. Intégration à l'Inria Startup Studio.
+            Creation of the project, identification of the customer need around industrial players in connection with the laboratory, structuring of the team and the project. Integration to Inria Startup Studio.
           </div>
         </div>
       </div>
 
       <div class="time-point left" style="top: 44%;">
         <div class="hover-container">
-          <div class="circle">Incubation Inria studio<br>2025-2026</div>
+          <div class="circle">Inria Startup studio<br>2025-2026</div>
           <div class="hover-text">
-            Prototype MVP, itérations techniques, validations initiales.
+            Prototype MVP, technological iterations, initial validation.
           </div>
         </div>
       </div>
 
       <div class="time-point right" style="top: 66%;">
         <div class="hover-container">
-          <div class="circle">Création de l'entreprise<br>2026</div>
+          <div class="circle">Company creation<br>2026</div>
           <div class="hover-text">
-            Lancement du pilote avec des partenaires publiques/industriels sélectionnés.
+            Kickoff with public/industrial partners.
           </div>
         </div>
       </div>
 
       <div class="time-point left" style="top: 88%;">
         <div class="hover-container">
-          <div class="circle">Levée de fond<br>2026</div>
+          <div class="circle">Fundraising<br>2026</div>
           <div class="hover-text">
-            Recherche de financement, optimisation du produit.
+            Funding and optimization of the product.
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@ title: Projet Cirus
         <div class="hover-container">
           <div class="circle">Diversification<br>2027</div>
           <div class="hover-text">
-            Industrialisation d'un produit, déploiement commercial, internationalisation.
+            Industrialization of a product, commercial deployment, internationalization.
           </div>
         </div>
       </div>

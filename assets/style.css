@@ -450,3 +450,17 @@ nav a:hover {
   pointer-events: none;
   transition: opacity 0.5s cubic-bezier(.4,2,.3,1);
 }
+
+.lang-switch {
+  margin-left: 16px;
+  padding: 4px 12px;
+  background: #4da6ff;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.lang-switch:hover {
+  background: #214bd7;
+}

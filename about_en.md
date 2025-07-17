@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Contact
+title: Produit
 ---
 
-<div class="background" style="background-image: url('{{ site.baseurl }}/assets/images/bg1.jpg');">
-      <div class="nav-links">
+<div class="background" style="background-image: url('{{ site.baseurl }}/assets/images/5.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 100px 20px;">
+  <div class="nav-links">
     <a href="{{ site.baseurl }}">Home</a>
     <a href="{{ site.baseurl }}/about.html">Produit</a>
     <a href="{{ site.baseurl }}/projects.html">Technologie</a>
     <a href="{{ site.baseurl }}/gallery.html">Founders</a>
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
   </div>
-  <h1>Nous contacter</h1>
-  <p>Vous pouvez</p>
+  <h1>Notre Produit</h1>
+  <p>Produit tbd</p>
 </div>
