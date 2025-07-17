@@ -9,7 +9,7 @@ title: Project Cirus
   <source src="{{ site.baseurl }}/assets/video/neurons.mp4" type="video/mp4">
   </video>
   <div class="intro-overlay">
-    <h1>Welcome to <span style="color:#4da6ff">Cirus</span></h1>
+    <h1>Welcome to <span style="color:#2272FF">Cirus</span></h1>
     <h2>AI and BCI — from researchers to real-world use cases</h2>
     <button onclick="scrollToMain()">Enter</button>
   </div>
