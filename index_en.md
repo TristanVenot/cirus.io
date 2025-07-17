@@ -27,7 +27,7 @@ title: Project Cirus
   </div>  
 
   <section class="main-section scroll-animate hideable-section">
-    <h1 class="fancy-text">Projet Cirus</h1>
+    <h1 class="fancy-text">Project Cirus</h1>
     <p class="big-desc">
       Cirus is a French company operating in the field of brain-computer interfaces (BCI) and artificial intelligence. <br>
       The company develops and markets research platforms and associated foundation models for companies target use cases.
