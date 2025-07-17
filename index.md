@@ -23,7 +23,7 @@ title: Projet Cirus
     <a href="{{ site.baseurl }}/projects.html">Technologie</a>
     <a href="{{ site.baseurl }}/gallery.html">Founders</a>
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
-    <a href="{{ site.baseurl }}/index_en.md" class="lang-switch">EN</a>
+    <a href="{{ site.baseurl }}/index_en.html" class="lang-switch">EN</a>
   </div>
 
   <section class="main-section scroll-animate hideable-section">
