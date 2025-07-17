@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projet Cirus
+title: Project Cirus
 ---
 
 <!-- Intro Section -->

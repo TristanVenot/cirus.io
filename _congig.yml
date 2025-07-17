@@ -5,7 +5,7 @@ baseurl: "/cirus.io/"
 
 # Navigation links
 nav:
-  - title: Cirus Project
+  - title: Projet Cirus
     url: /
   - title: Notre produit
     url: /about.html
@@ -15,3 +15,13 @@ nav:
     url: /gallery.html
   - title: Pour nous contacter
     url: /contact.html
+  - title: Project Cirus
+    url: /index_en.html
+  - title: Product
+    url: /about_en.html
+  - title: Technology
+    url: /projects_en.html
+  - title: Who are we?
+    url: /gallery_en.html
+  - title: To contact us
+    url: /contact_en.html
