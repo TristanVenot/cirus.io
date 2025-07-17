@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Founders
+title: Fondateurs
 ---
 
 <div class="founders-page">
