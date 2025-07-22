@@ -3,14 +3,14 @@ body {
   margin: 5;
   padding: 0;
   font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
-  background-color: #020824;  /* deep dark blue */
+  background-color: #ffffff;  /* deep dark blue */
   color: #ffffff;
   line-height: 1.6;
 }
 
 /* === Navigation Bar === */
 nav {
-  background-color: #020824;
+  background-color: #ffffff;
   padding: 1em 2em;
 }
 
@@ -74,7 +74,7 @@ nav a:hover {
 }
 .founders-page {
   padding: 60px 20px;
-  background-color: #0a0f2c;
+  background-color: #ffffff;
 }
 
 .founders-page h1 {
@@ -120,7 +120,7 @@ nav a:hover {
   text-align: left;         /* Align title to the left */
   margin-left: 170px;       /* Align with founder bios and images */
   margin-bottom: 40px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .nav-links {
@@ -133,9 +133,9 @@ nav a:hover {
 }
 
 .nav-links a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 2.5rem;
   transition: color 0.3s ease;
 }
 
@@ -169,9 +169,9 @@ nav a:hover {
 
 /* Fancy, bigger text */
 .fancy-text {
-  font-size: 2.5em;      /* Slightly smaller for balance */
+  font-size: 5em;      /* Slightly smaller for balance */
   font-weight: 900;
-  color: #2272FF;
+  color: #031d49;
   letter-spacing: 1px;
   margin-bottom: 0.3em;
   margin-top: 0.3em;
@@ -411,11 +411,11 @@ nav a:hover {
 }
 
 .big-desc {
-  font-size: 1.35em;     /* Slightly smaller for density */
+  font-size: 2.5em;     /* Slightly smaller for density */
   font-weight: 600;
   line-height: 1.25;
-  margin: 18px 0;
-  color: #e6e6e6;
+  margin: 12px 0;
+  color: #000000;
   letter-spacing: 0.01em;
   animation: fancy-pop 1.2s cubic-bezier(.4,2,.3,1);
   text-align: center;
