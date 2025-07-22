@@ -2,7 +2,7 @@
 body {
   margin: 5;
   padding: 0;
-  font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+  font-family: 'Heiti TC','PingFang TC', 'Inter', 'Roboto', 'Segoe UI', sans-serif;
   background-color: #ffffff;  /* deep dark blue */
   color: #ffffff;
   line-height: 1.6;
@@ -70,7 +70,7 @@ nav a:hover {
   background-position: center 30%;
   padding: 80px 20px;
   color: white;
-  text-shadow: 0 0 10px #000;
+  /*text-shadow: 0 0 10px #000;*/
 }
 .founders-page {
   padding: 60px 20px;
@@ -140,7 +140,7 @@ nav a:hover {
 }
 
 .nav-links a:hover {
-  color: #4ecdc4;
+  color: #010939;
 }
 .tech-roadmap {
   position: relative;
@@ -414,7 +414,7 @@ nav a:hover {
   font-size: 2.5em;     /* Slightly smaller for density */
   font-weight: 600;
   line-height: 1.25;
-  margin: 12px 0;
+  margin: 9px 0;
   color: #000000;
   letter-spacing: 0.01em;
   animation: fancy-pop 1.2s cubic-bezier(.4,2,.3,1);
