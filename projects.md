@@ -18,7 +18,7 @@ title: Technologie
       Notre approche va au-delà du simple décodage : nous concevons des systèmes robustes, centrés sur l'utilisateur, fiables entre les sessions, et capables de s'adapter à différents états cérébraux, tâches et modalités (EEG ou MEG). Notre expertise couvre à la fois le traitement du signal et les bases neurophysiologiques, afin de transformer les signaux cérébraux bruyants en commandes exploitables en temps réel.
           </p>
   </section>
-      <video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls width="854"
+      <video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" width="854"
   height="480 " autoplay muted loop playsinline>></video>
       
   <section class="main-section scroll-animate hideable-section">
