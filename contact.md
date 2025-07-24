@@ -16,8 +16,15 @@ title: Contact
 
 <div class="container_techno">
   <div class="video-box_techno">
-  <video src="{{ site.baseurl }}/assets/video/contact.mp4" type="video/mp4" width="480"
-  height="720" autoplay muted loop playsinline transform: rotate(90deg)>></video>
+  <video
+  src="{{ site.baseurl }}/assets/video/contact.mp4"
+  type="video/mp4"
+  autoplay
+  muted
+  loop
+  playsinline
+  style="transform: rotate(90deg); width: 480px; height: 720px; object-fit: cover;"
+></video>
   </div>
 
   <!-- Your original form on the right -->
@@ -29,8 +36,8 @@ title: Contact
   name="name" 
   required 
   style="
-    width: 300px; 
-    height: 100px; 
+    width: 200px; 
+    height: 50px; 
     margin-bottom: 16px; 
     padding: 8px; 
     border-radius: 6px; 
@@ -46,8 +53,8 @@ title: Contact
   name="email" 
   required 
   style="
-    width: 300px; 
-    height: 100px; 
+    width: 200px; 
+    height: 50px; 
     margin-bottom: 16px; 
     padding: 8px; 
     border-radius: 6px; 
@@ -63,8 +70,8 @@ title: Contact
   name="message" 
   required 
   style="
-    width: 300px; 
-    height: 300px; 
+    width: 200px; 
+    height: 200px; 
     margin-bottom: 16px; 
     padding: 8px; 
     border-radius: 6px; 
