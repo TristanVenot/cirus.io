@@ -23,7 +23,21 @@ title: Contact
   <!-- Your original form on the right -->
   <form id="contact-form" style="flex: 1; padding: 24px;">
     <label for="name" style="display:block;margin-bottom:8px;color: #00008B;">Name</label>
-    <input type="text" id="name" name="name" required style="width:100%;margin-bottom:16px;padding:8px;border-radius:6px;border:1px solid #ccc;">
+    <input 
+  type="text" 
+  id="name" 
+  name="name" 
+  required 
+  style="
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 16px; 
+    padding: 8px; 
+    border-radius: 6px; 
+    border: 1px solid #ccc; 
+    background-color: white;
+    color: black;
+  ">
 
     <label for="email" style="display:block;margin-bottom:8px;color: #00008B;">Email</label>
     <input type="email" id="email" name="email" required style="width:100%;margin-bottom:16px;padding:8px;border-radius:6px;border:1px solid #ccc;">
