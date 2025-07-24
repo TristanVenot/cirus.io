@@ -14,10 +14,10 @@ title: Contact
   <h1>Contactez nous !</h1>
 </div>
 
-<div style="display: flex; align-items: stretch; max-width: 900px; margin: 40px auto; background: #222; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 24px #0003; font-family: 'Heiti TC', sans-serif;">
-  
-  <!-- Image on the left -->
-  <div style="flex: 1; background: url('https://source.unsplash.com/400x400/?brain,technology') center/cover no-repeat;">
+<div class="container_techno">
+  <div class="video-box_techno">
+  <video src="{{ site.baseurl }}/assets/video/contact.mp4" type="video/mp4" width="720"
+  height="480" autoplay muted loop playsinline>></video>
   </div>
 
   <!-- Your original form on the right -->
@@ -39,13 +39,41 @@ title: Contact
     color: black;
   ">
 
-    <label for="email" style="display:block;margin-bottom:8px;color: #00008B;">Email</label>
-    <input type="email" id="email" name="email" required style="width:100%;margin-bottom:16px;padding:8px;border-radius:6px;border:1px solid #ccc;">
+  <label for="email" style="display:block;margin-bottom:8px;color: #00008B;">Email</label>
+    <input 
+  type="text" 
+  id="email" 
+  name="email" 
+  required 
+  style="
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 16px; 
+    padding: 8px; 
+    border-radius: 6px; 
+    border: 1px solid #ccc; 
+    background-color: white;
+    color: black;
+  ">
 
-    <label for="message" style="display:block;margin-bottom:8px;color:#00008B;">Message</label>
-    <textarea id="message" name="message" rows="5" required style="width:100%;margin-bottom:16px;padding:8px;border-radius:6px;border:1px solid #ccc;"></textarea>
+  <label for="message" style="display:block;margin-bottom:8px;color: #00008B;">Message</label>
+    <input 
+  type="text" 
+  id="message" 
+  name="message" 
+  required 
+  style="
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 16px; 
+    padding: 8px; 
+    border-radius: 6px; 
+    border: 1px solid #ccc; 
+    background-color: white;
+    color: black;
+  ">
 
-    <button type="submit" style="background:#4da6ff;color:#00008B;padding:10px 24px;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Send</button>
-  </form>
-</div>
+  <button type="submit" style="background:#4da6ff;color:#fff;padding:10px 24px;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Send</button>
+</form>
+  </div>
 </form>

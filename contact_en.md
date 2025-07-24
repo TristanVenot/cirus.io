@@ -15,15 +15,68 @@ title: Contact us
 </div>
 
 
-<form id="contact-form" style="max-width:400px;margin:40px auto;padding:24px;background:#222;border-radius:12px;box-shadow:0 4px 24px #0003;">
-  <label for="name" style="display:block;margin-bottom:8px;color:#fff;">Name</label>
-  <input type="text" id="name" name="name" required style="width:100%;margin-bottom:16px;padding:8px;border-radius:6px;border:1px solid #ccc;">
+<div class="container_techno">
+  <div class="video-box_techno">
+  <video src="{{ site.baseurl }}/assets/video/contact.mp4" type="video/mp4" width="720"
+  height="480" autoplay muted loop playsinline>></video>
+  </div>
 
-  <label for="email" style="display:block;margin-bottom:8px;color:#fff;">Email</label>
-  <input type="email" id="email" name="email" required style="width:100%;margin-bottom:16px;padding:8px;border-radius:6px;border:1px solid #ccc;">
+  <!-- Your original form on the right -->
+  <form id="contact-form" style="flex: 1; padding: 24px;">
+    <label for="name" style="display:block;margin-bottom:8px;color: #00008B;">Name</label>
+    <input 
+  type="text" 
+  id="name" 
+  name="name" 
+  required 
+  style="
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 16px; 
+    padding: 8px; 
+    border-radius: 6px; 
+    border: 1px solid #ccc; 
+    background-color: white;
+    color: black;
+  ">
 
-  <label for="message" style="display:block;margin-bottom:8px;color:#fff;">Message</label>
-  <textarea id="message" name="message" rows="5" required style="width:100%;margin-bottom:16px;padding:8px;border-radius:6px;border:1px solid #ccc;"></textarea>
+  <label for="email" style="display:block;margin-bottom:8px;color: #00008B;">Email</label>
+    <input 
+  type="text" 
+  id="email" 
+  name="email" 
+  required 
+  style="
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 16px; 
+    padding: 8px; 
+    border-radius: 6px; 
+    border: 1px solid #ccc; 
+    background-color: white;
+    color: black;
+  ">
+
+  <label for="message" style="display:block;margin-bottom:8px;color: #00008B;">Message</label>
+    <input 
+  type="text" 
+  id="message" 
+  name="message" 
+  required 
+  style="
+    width: 200px; 
+    height: 200px; 
+    margin-bottom: 16px; 
+    padding: 8px; 
+    border-radius: 6px; 
+    border: 1px solid #ccc; 
+    background-color: white;
+    color: black;
+  ">
 
   <button type="submit" style="background:#4da6ff;color:#fff;padding:10px 24px;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Send</button>
 </form>
+  </div>
+
+</div>
+
