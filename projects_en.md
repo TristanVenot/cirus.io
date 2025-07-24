@@ -11,8 +11,10 @@ title: Technology
     <a href="{{ site.baseurl }}/gallery_en.html">Founders</a>
     <a href="{{ site.baseurl }}/contact_en.html">Contact</a>
   </div>
-  <h1>Brain Computer Interface</h1>
-  <p>A non-invasive Brain-Computer Interface (BCI) enables communication between the brain and an external device without requiring surgical implants. Instead, it relies on surface-level recordings of neural activity, typically using electroencephalography (EEG) or magnetoencephalography (MEG).
+  section class="main-section scroll-animate hideable-section">
+    <h1 class="fancy-text">Brain Computer Interface</h1>
+    <p class="big-desc">
+      A non-invasive Brain-Computer Interface (BCI) enables communication between the brain and an external device without requiring surgical implants. Instead, it relies on surface-level recordings of neural activity, typically using electroencephalography (EEG) or magnetoencephalography (MEG).
 
 These systems decode specific neural patterns associated with different mental states or cognitive processes. In motor imagery-based BCIs—one of the most common paradigms—users imagine specific movements (e.g., left hand, right hand, foot), which produce measurable changes in sensorimotor rhythms. These rhythms are primarily oscillations in the mu (8–13 Hz) and beta (13–30 Hz) bands over the sensorimotor cortex. When a user imagines a movement, we observe event-related desynchronization (ERD) in the contralateral cortex, followed by event-related synchronization (ERS) after the imagined task ends.
 
@@ -27,5 +29,8 @@ Other well-established BCI paradigms include:
 Non-invasive BCIs face challenges such as lower signal-to-noise ratio compared to invasive methods, individual variability, and the need for calibration. However, they remain the most practical and scalable option for real-world applications—particularly in assistive technology, neurorehabilitation, and human-computer interaction.
 
 Key to our approach is not just decoding these signals accurately, but designing systems that are user-centered, reliable across sessions, and adaptable to different brain states, tasks, and modalities (EEG or MEG). Our expertise spans both the signal processing and neuroscience required to turn noisy brain data into actionable, real-time control.</p>
-<video src="{{ site.baseurl }}/assets/video/BCI_explication.gif" type="video/gif" controls></video>
+    </p>
+   </section>
+
+<video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls></video>
 </div>
