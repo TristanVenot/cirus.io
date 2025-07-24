@@ -3,18 +3,19 @@ layout: default
 title: Contact
 ---
 
-<div class="background" style="background-image: url('{{ site.baseurl }}/assets/images/bg1.jpg');">
-      <div class="nav-links">
+<div class="background">
+     <div class="nav-links">
     <a href="{{ site.baseurl }}">Home</a>
     <a href="{{ site.baseurl }}/about.html">Histoire</a>
     <a href="{{ site.baseurl }}/projects.html">Technologie</a>
     <a href="{{ site.baseurl }}/gallery.html">Fondateurs</a>
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
   </div>
-  <h1>Contactez nous !</h1>
+  
 </div>
 
 <div class="container_techno">
+  <h1>Contactez nous !</h1>
   <div class="video-box_techno">
   <video
   src="{{ site.baseurl }}/assets/video/contact.mp4"
@@ -64,21 +65,22 @@ title: Contact
   ">
 
   <label for="message" style="display:block;margin-bottom:8px;color: #00008B;">Message</label>
-    <input 
-  type="text" 
+<textarea 
   id="message" 
   name="message" 
+  rows="6"
   required 
   style="
     width: 200px; 
-    height: 150px; 
     margin-bottom: 16px; 
     padding: 8px; 
     border-radius: 6px; 
     border: 1px solid #ccc; 
     background-color: white;
     color: black;
-  ">
+    resize: vertical;
+  "></textarea>
+
 
   <button type="submit" style="background:#4da6ff;color:#fff;padding:10px 24px;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Send</button>
 </form>

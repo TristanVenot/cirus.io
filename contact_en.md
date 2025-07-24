@@ -64,21 +64,22 @@ title: Contact us
   ">
 
   <label for="message" style="display:block;margin-bottom:8px;color: #00008B;">Message</label>
-    <input 
-  type="text" 
+<textarea 
   id="message" 
   name="message" 
+  rows="6"
   required 
   style="
     width: 200px; 
-    height: 150px; 
     margin-bottom: 16px; 
     padding: 8px; 
     border-radius: 6px; 
     border: 1px solid #ccc; 
     background-color: white;
     color: black;
-  ">
+    resize: vertical;
+  "></textarea>
+
 
   <button type="submit" style="background:#4da6ff;color:#fff;padding:10px 24px;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Send</button>
 </form>
