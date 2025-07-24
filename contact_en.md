@@ -14,10 +14,11 @@ title: Contact us
 
 </div>
 
+<h1 style="text-align:center; padding-top: 2rem;">Contactez-nous !</h1>
 
-<div class="container_techno">
-    <h1>Get in touch !</h1>
-    <div class="video-box_techno">
+
+<div class="container_contact">
+    <div class="video-box_contact">
     <video
     src="{{ site.baseurl }}/assets/video/contact.mp4"
     type="video/mp4"

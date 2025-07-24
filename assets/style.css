@@ -521,3 +521,27 @@ nav a:hover {
   top: 2rem; /* stickiness starts when top of viewport hits this */
   align-self: flex-start;
 }
+
+
+.container_contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.text-box_contact {
+  flex: 1;
+  font-size: 1.2rem;
+  color: #000000;
+  text-align: left;
+}
+
+.video-box_contact {
+  flex: 1;
+  position: sticky;
+  top: 2rem; /* stickiness starts when top of viewport hits this */
+  align-self: flex-start;
+}
