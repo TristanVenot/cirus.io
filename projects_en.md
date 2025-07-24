@@ -12,8 +12,8 @@ title: Technology
     <a href="{{ site.baseurl }}/contact_en.html">Contact</a>
   </div>
   section class="main-section scroll-animate hideable-section">
-    <h1 class="fancy-text">Brain Computer Interface</h1>
-    <p class="big-desc">
+    <h1 class="fancy-text_techno">Brain Computer Interface</h1>
+    <p class="big-desc_techno">
       A non-invasive Brain-Computer Interface (BCI) enables communication between the brain and an external device without requiring surgical implants. Instead, it relies on surface-level recordings of neural activity, typically using electroencephalography (EEG) or magnetoencephalography (MEG).
 
 These systems decode specific neural patterns associated with different mental states or cognitive processes. In motor imagery-based BCIs—one of the most common paradigms—users imagine specific movements (e.g., left hand, right hand, foot), which produce measurable changes in sensorimotor rhythms. These rhythms are primarily oscillations in the mu (8–13 Hz) and beta (13–30 Hz) bands over the sensorimotor cortex. When a user imagines a movement, we observe event-related desynchronization (ERD) in the contralateral cortex, followed by event-related synchronization (ERS) after the imagined task ends.
