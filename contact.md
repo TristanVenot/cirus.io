@@ -71,8 +71,8 @@ title: Contact
   name="message" 
   required 
   style="
-    width: 300px; 
-    height: 300px; 
+    width: 200px; 
+    height: 200px; 
     margin-bottom: 16px; 
     padding: 8px; 
     border-radius: 6px; 
