@@ -11,13 +11,22 @@ title: Technology
     <a href="{{ site.baseurl }}/gallery_en.html">Founders</a>
     <a href="{{ site.baseurl }}/contact_en.html">Contact</a>
   </div>
-  section class="main-section scroll-animate hideable-section">
+  <section class="main-section scroll-animate hideable-section">
     <h1 class="fancy-text_techno">Brain Computer Interface</h1>
     <p class="big-desc_techno">
       A non-invasive Brain-Computer Interface (BCI) enables communication between the brain and an external device without requiring surgical implants. Instead, it relies on surface-level recordings of neural activity, typically using electroencephalography (EEG) or magnetoencephalography (MEG).
-
-These systems decode specific neural patterns associated with different mental states or cognitive processes. In motor imagery-based BCIs—one of the most common paradigms—users imagine specific movements (e.g., left hand, right hand, foot), which produce measurable changes in sensorimotor rhythms. These rhythms are primarily oscillations in the mu (8–13 Hz) and beta (13–30 Hz) bands over the sensorimotor cortex. When a user imagines a movement, we observe event-related desynchronization (ERD) in the contralateral cortex, followed by event-related synchronization (ERS) after the imagined task ends.
-
+      Key to our approach is not just decoding these signals accurately, but designing systems that are user-centered, reliable across sessions, and adaptable to different brain states, tasks, and modalities (EEG or MEG). Our expertise spans both the signal processing and neuroscience required to turn noisy brain data into actionable, real-time control.
+        </p>
+   </section>
+   <section class="main-section scroll-animate hideable-section">
+     <h1 class="fancy-text_techno">Motor Imagery</h1>
+    <p class="big-desc_techno">
+    These systems decode specific neural patterns associated with different mental states or cognitive processes. In motor imagery-based BCIs—one of the most common paradigms—users imagine specific movements (e.g., left hand, right hand, foot), which produce measurable changes in sensorimotor rhythms. These rhythms are primarily oscillations in the mu (8–13 Hz) and beta (13–30 Hz) bands over the sensorimotor cortex. When a user imagines a movement, we observe event-related desynchronization (ERD) in the contralateral cortex, followed by event-related synchronization (ERS) after the imagined task ends.
+   </p>
+   </section>
+  <section class="main-section scroll-animate hideable-section">
+  <h1 class="fancy-text_techno">Other Paradigms</h1>
+    <p class="big-desc_techno">
 Other well-established BCI paradigms include:
 
     P300-based BCIs: Rely on detecting a characteristic positive EEG peak around 300 ms after an infrequent or target stimulus. Commonly used in speller systems.
@@ -27,9 +36,8 @@ Other well-established BCI paradigms include:
     Error-related potentials (ErrPs): Detect when a user recognizes an incorrect action by the system, useful for adaptive or corrective interfaces.
 
 Non-invasive BCIs face challenges such as lower signal-to-noise ratio compared to invasive methods, individual variability, and the need for calibration. However, they remain the most practical and scalable option for real-world applications—particularly in assistive technology, neurorehabilitation, and human-computer interaction.
+</p>
 
-Key to our approach is not just decoding these signals accurately, but designing systems that are user-centered, reliable across sessions, and adaptable to different brain states, tasks, and modalities (EEG or MEG). Our expertise spans both the signal processing and neuroscience required to turn noisy brain data into actionable, real-time control.</p>
-    </p>
    </section>
 
 <video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls width="854"
