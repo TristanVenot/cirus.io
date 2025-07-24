@@ -3,7 +3,7 @@ layout: default
 title: Technologie
 ---
 
-<div class="background" style="background-image: url('{{ site.baseurl }}/assets/images/explication.jpg');">
+<div class="background">
   <div class="nav-links">
     <a href="{{ site.baseurl }}">Home</a>
     <a href="{{ site.baseurl }}/about.html">Produit</a>
@@ -27,4 +27,6 @@ D’autres paradigmes ICM bien établis incluent :
 Les ICM non invasives présentent des défis, notamment un faible rapport signal/bruit, une variabilité interindividuelle, et la nécessité de calibrations régulières. Malgré cela, elles constituent aujourd’hui l’option la plus pratique et la plus scalable pour les applications concrètes—en particulier dans les domaines de l’assistance, de la rééducation neurologique et de l’interaction homme-machine.
 
 Notre approche va au-delà du simple décodage : nous concevons des systèmes robustes, centrés sur l’utilisateur, fiables entre les sessions, et capables de s’adapter à différents états cérébraux, tâches et modalités (EEG ou MEG). Notre expertise couvre à la fois le traitement du signal et les bases neurophysiologiques, afin de transformer les signaux cérébraux bruyants en commandes exploitables en temps réel.</p>
+
+<video src="{{ site.baseurl }}/assets/video/BCI_explication.gif" type="video/gif" controls></video>
 </div>

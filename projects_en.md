@@ -3,7 +3,7 @@ layout: default
 title: Technology
 ---
 
-<div class="background" style="background-image: url('{{ site.baseurl }}/assets/images/explication.jpg');">
+<div class="background">
   <div class="nav-links">
     <a href="{{ site.baseurl }}/index_en.html">Home</a>
     <a href="{{ site.baseurl }}/about_en.html">Product</a>
@@ -27,4 +27,5 @@ Other well-established BCI paradigms include:
 Non-invasive BCIs face challenges such as lower signal-to-noise ratio compared to invasive methods, individual variability, and the need for calibration. However, they remain the most practical and scalable option for real-world applications—particularly in assistive technology, neurorehabilitation, and human-computer interaction.
 
 Key to our approach is not just decoding these signals accurately, but designing systems that are user-centered, reliable across sessions, and adaptable to different brain states, tasks, and modalities (EEG or MEG). Our expertise spans both the signal processing and neuroscience required to turn noisy brain data into actionable, real-time control.</p>
+<video src="{{ site.baseurl }}/assets/video/BCI_explication.gif" type="video/gif" controls></video>
 </div>
