@@ -19,7 +19,7 @@ title: Technologie
           </p>
   </section>
       <video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls width="854"
-  height="480"></video>
+  height="480 " autoplay muted loop playsinline>></video>
       
   <section class="main-section scroll-animate hideable-section">
       <h1 class="fancy-text_techno">L'imagination motrice</h1>

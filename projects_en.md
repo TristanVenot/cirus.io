@@ -11,15 +11,21 @@ title: Technology
     <a href="{{ site.baseurl }}/gallery_en.html">Founders</a>
     <a href="{{ site.baseurl }}/contact_en.html">Contact</a>
   </div>
-  <section class="main-section scroll-animate hideable-section">
-    <h1 class="fancy-text_techno">Brain Computer Interface</h1>
-    <p class="big-desc_techno">
+
+  <div class="container_techno">
+  <div class="text-box_techno">
+    <h2>Brain Computer Interface</h2>
+    <p>
       A non-invasive Brain-Computer Interface (BCI) enables communication between the brain and an external device without requiring surgical implants. Instead, it relies on surface-level recordings of neural activity, typically using electroencephalography (EEG) or magnetoencephalography (MEG).
       Key to our approach is not just decoding these signals accurately, but designing systems that are user-centered, reliable across sessions, and adaptable to different brain states, tasks, and modalities (EEG or MEG). Our expertise spans both the signal processing and neuroscience required to turn noisy brain data into actionable, real-time control.
-        </p>
-   </section>
-   <video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls width="854"
-  height="480"></video>
+    </p>
+  </div>
+
+  <video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls width="854"
+  height="480" autoplay muted loop playsinline>></video>
+
+</div>
+
    <section class="main-section scroll-animate hideable-section">
      <h1 class="fancy-text_techno">Motor Imagery</h1>
     <p class="big-desc_techno">

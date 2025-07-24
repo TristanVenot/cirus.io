@@ -498,3 +498,18 @@ nav a:hover {
   background: white; /* Optional: makes logo more visible */
   padding: 5px;
 }
+
+.container_techno {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.text-box_techno {
+  flex: 1;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
