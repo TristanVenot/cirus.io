@@ -18,6 +18,8 @@ title: Technology
       Key to our approach is not just decoding these signals accurately, but designing systems that are user-centered, reliable across sessions, and adaptable to different brain states, tasks, and modalities (EEG or MEG). Our expertise spans both the signal processing and neuroscience required to turn noisy brain data into actionable, real-time control.
         </p>
    </section>
+   <video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls width="854"
+  height="480"></video>
    <section class="main-section scroll-animate hideable-section">
      <h1 class="fancy-text_techno">Motor Imagery</h1>
     <p class="big-desc_techno">
@@ -40,6 +42,5 @@ Non-invasive BCIs face challenges such as lower signal-to-noise ratio compared t
 
    </section>
 
-<video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls width="854"
-  height="480"></video>
+
 </div>
