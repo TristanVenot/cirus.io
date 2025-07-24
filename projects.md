@@ -22,16 +22,18 @@ title: Technologie
     </p>
   </div>
 
+  <div class="video-box_techno">
   <video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" width="720"
   height="480" autoplay muted loop playsinline>></video>
-
+  </div>
 </div>
 
 
 <div class="container_techno">
+<div class="video-box_techno">
 <video src="{{ site.baseurl }}/assets/video/MI_anim.mp4" type="video/mp4" width="720"
   height="480" autoplay muted loop playsinline>></video>
-  <div class="text-box_techno">
+  </div>
     <h2>Imagination motrice</h2>
     <p>
       Dans les ICM basées sur l'imagerie motrice, l'un des paradigmes les plus répandus, l'utilisateur imagine un mouvement (par exemple, de la main gauche, de la main droite ou du pied), ce qui entraîne des modifications mesurables des rythmes sensorimoteurs. Ces rythmes correspondent à des oscillations dans les bandes de fréquence mu (8–13 Hz) et bêta (13–30 Hz) enregistrées au niveau du cortex sensorimoteur. Lors de l'imagination d'un mouvement, on observe une désynchronisation liée à l'événement (ERD) dans le cortex controlatéral, suivie d'une resynchronisation (ERS) après la fin de la tâche.

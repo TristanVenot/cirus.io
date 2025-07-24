@@ -20,16 +20,19 @@ title: Technology
       Key to our approach is not just decoding these signals accurately, but designing systems that are user-centered, reliable across sessions, and adaptable to different brain states, tasks, and modalities (EEG or MEG). Our expertise spans both the signal processing and neuroscience required to turn noisy brain data into actionable, real-time control.
     </p>
   </div>
-
+  <div class="video-box_techno">
   <video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" width="720"
   height="480" autoplay muted loop playsinline>></video>
+  </div>
 
 </div>
 
 
 <div class="container_techno">
+<div class="video-box_techno">
 <video src="{{ site.baseurl }}/assets/video/MI_anim.mp4" type="video/mp4" width="720"
   height="480" autoplay muted loop playsinline>></video>
+  </div>
   <div class="text-box_techno">
     <h2>Motor imagery</h2>
     <p>
