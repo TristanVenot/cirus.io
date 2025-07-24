@@ -32,6 +32,6 @@ Key to our approach is not just decoding these signals accurately, but designing
     </p>
    </section>
 
-<video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls width="640"
-  height="360"></video>
+<video src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4" controls width="854"
+  height="480"></video>
 </div>
