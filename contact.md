@@ -37,7 +37,7 @@ title: Contact
   required 
   style="
     width: 200px; 
-    height: 50px; 
+    height: 40px; 
     margin-bottom: 16px; 
     padding: 8px; 
     border-radius: 6px; 
@@ -54,7 +54,7 @@ title: Contact
   required 
   style="
     width: 200px; 
-    height: 50px; 
+    height: 40px; 
     margin-bottom: 16px; 
     padding: 8px; 
     border-radius: 6px; 
@@ -71,7 +71,7 @@ title: Contact
   required 
   style="
     width: 200px; 
-    height: 200px; 
+    height: 150px; 
     margin-bottom: 16px; 
     padding: 8px; 
     border-radius: 6px; 
