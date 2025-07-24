@@ -31,7 +31,7 @@ title: Technologie
 
 <div class="container_techno">
 <div class="video-box_techno">
-<video src="{{ site.baseurl }}/assets/video/MI_anim.mp4" type="video/mp4" width="720"
+  <video src="{{ site.baseurl }}/assets/video/MI_anim.mp4" type="video/mp4" width="720"
   height="480" autoplay muted loop playsinline>></video>
   </div>
   <div class="text-box_techno">
