@@ -26,12 +26,20 @@ title: Technology
 
 </div>
 
-   <section class="main-section scroll-animate hideable-section">
-     <h1 class="fancy-text_techno">Motor Imagery</h1>
-    <p class="big-desc_techno">
-    These systems decode specific neural patterns associated with different mental states or cognitive processes. In motor imagery-based BCIs—one of the most common paradigms—users imagine specific movements (e.g., left hand, right hand, foot), which produce measurable changes in sensorimotor rhythms. These rhythms are primarily oscillations in the mu (8–13 Hz) and beta (13–30 Hz) bands over the sensorimotor cortex. When a user imagines a movement, we observe event-related desynchronization (ERD) in the contralateral cortex, followed by event-related synchronization (ERS) after the imagined task ends.
-   </p>
-   </section>
+
+<div class="container_techno">
+  <div class="text-box_techno">
+    <h2>Motor imagery</h2>
+    <video src="{{ site.baseurl }}/assets/video/MI_anim.mp4" type="video/mp4" width="854"
+  height="480" autoplay muted loop playsinline>></video>
+    <p>
+      These systems decode specific neural patterns associated with different mental states or cognitive processes. In motor imagery-based BCIs—one of the most common paradigms—users imagine specific movements (e.g., left hand, right hand, foot), which produce measurable changes in sensorimotor rhythms. These rhythms are primarily oscillations in the mu (8–13 Hz) and beta (13–30 Hz) bands over the sensorimotor cortex. When a user imagines a movement, we observe event-related desynchronization (ERD) in the contralateral cortex, followed by event-related synchronization (ERS) after the imagined task ends.
+    </p>
+  </div>
+
+</div>
+
+
   <section class="main-section scroll-animate hideable-section">
   <h1 class="fancy-text_techno">Other Paradigms</h1>
     <p class="big-desc_techno">
