@@ -14,7 +14,7 @@ title: Contact us
 
 </div>
 
-<h1 style="text-align:center; padding-top: 2rem;">Contactez-nous !</h1>
+<h1 style="text-align:center; padding-top: 2rem;color: black;">Contact us !</h1>
 
 
 <div class="container_contact">

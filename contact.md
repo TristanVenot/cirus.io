@@ -13,7 +13,7 @@ title: Contact
   </div>
   
 </div>
-<h1 style="text-align:center; padding-top: 2rem;">Contactez-nous !</h1>
+<h1 style="text-align:center; padding-top: 2rem;color: black">Contactez-nous !</h1>
 <div class="container_contact">
 
   <div class="video-box_contact">
@@ -78,7 +78,6 @@ title: Contact
       border: 1px solid #ccc; 
       background-color: white;
       color: black;
-      resize: vertical;
     "></textarea>
 
 
