@@ -13,7 +13,7 @@ title: Contact
   </div>
   
 </div>
-<h1 style="text-align:center; padding-top: 2rem;color: black">Contactez-nous !</h1>
+<h1 style="text-align:center; padding-top: 2rem;color: black;font-size: 3rem">Contactez-nous !</h1>
 <div class="container_contact">
 
   <div class="video-box_contact">
@@ -65,20 +65,21 @@ title: Contact
   ">
 
   <label for="message" style="display:block;margin-bottom:8px;color: #00008B;">Message</label>
-  <textarea 
-    id="message" 
-    name="message" 
-    rows="6"
-    required 
-    style="
-      width: 200px; 
-      margin-bottom: 16px; 
-      padding: 8px; 
-      border-radius: 6px; 
-      border: 1px solid #ccc; 
-      background-color: white;
-      color: black;
-    "></textarea>
+   <input 
+  type="text" 
+  id="message" 
+  name="message" 
+  required 
+  style="
+    width: 300px; 
+    height: 300px; 
+    margin-bottom: 16px; 
+    padding: 8px; 
+    border-radius: 6px; 
+    border: 1px solid #ccc; 
+    background-color: white;
+    color: black;
+  ">
 
 
   <button type="submit" style="background:#4da6ff;color:#fff;padding:10px 24px;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Send</button>
