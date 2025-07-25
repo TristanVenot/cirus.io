@@ -28,7 +28,7 @@ title: Contact
   ></video>
   </div>
 
-<form id="contact-form" style="flex: 1; padding: 64px;">
+<form id="contact-form" style="flex: 1; padding: 24px 24px 24px 64px;">
   <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 16px; width: 200px;">
     
     <label for="name" style="color: #00008B;">Name</label>
