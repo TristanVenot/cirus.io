@@ -95,13 +95,13 @@ nav a:hover {
 
 .founder-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Always 2 per row */
-  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr); /* 2 per row */
+  gap: 2rem 4rem;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 24px;
+  justify-items: center; /* center each cell’s content */
 }
-
 
 .founder {
   text-align: center;
