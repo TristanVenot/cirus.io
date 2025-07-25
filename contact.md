@@ -13,7 +13,7 @@ title: Contact
   </div>
   
 </div>
-<h1 style="text-align:center; padding-top: 2rem;color: black;font-size: 3rem">Contactez-nous !</h1>
+<h1 style="text-align:center;  padding: 24px 24px 24px 64px;color: black;font-size: 3rem">Contactez-nous !</h1>
 <div class="container_contact">
 
   <div class="video-box_contact">
@@ -29,7 +29,7 @@ title: Contact
   </div>
 
 <form id="contact-form" style="flex: 1; padding: 24px 24px 24px 64px;">
-  <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 16px; width: 200px;">
+  <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 16px; width: 300px;">
     
     <label for="name" style="color: #00008B;">Name</label>
     <input 
@@ -70,7 +70,7 @@ title: Contact
       required 
       style="
         width: 100%; 
-        height: 200px; 
+        height: 300px; 
         padding: 8px; 
         border-radius: 6px; 
         border: 1px solid #ccc; 
