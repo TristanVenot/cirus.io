@@ -6,7 +6,7 @@ title: Founders
 <div class="founders-page">
   <div class="nav-links">
     <a href="{{ site.baseurl }}/index_en.html">Home</a>
-    <a href="{{ site.baseurl }}/about_en.html">History</a>
+    <a href="{{ site.baseurl }}/about_en.html">Agenda</a>
     <a href="{{ site.baseurl }}/projects_en.html">Technology</a>
     <a href="{{ site.baseurl }}/gallery_en.html">Founders</a>
     <a href="{{ site.baseurl }}/contact_en.html">Contact</a>

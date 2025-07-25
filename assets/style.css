@@ -218,7 +218,7 @@ nav a:hover {
   transform: translateX(-50%);
   width: 4px;
   height: 100%;
-  background-color: #0479ffee;
+  background-color: #ff0404ee;
   z-index: 1;
 }
 
@@ -231,8 +231,8 @@ nav a:hover {
 
 /* Circle centered on the line */
 .time-point .circle {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: #03073c;
   color: white;
   border-radius: 50%;
@@ -478,7 +478,7 @@ nav a:hover {
 .lang-switch {
   margin-left: 16px;
   padding: 4px 12px;
-  background: #2272FF;
+  background: #000f28;
   color: #fff;
   border-radius: 6px;
   font-weight: bold;

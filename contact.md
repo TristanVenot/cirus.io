@@ -6,7 +6,7 @@ title: Contact
 <div class="background">
      <div class="nav-links">
     <a href="{{ site.baseurl }}">Home</a>
-    <a href="{{ site.baseurl }}/about.html">Histoire</a>
+    <a href="{{ site.baseurl }}/about.html">Agenda</a>
     <a href="{{ site.baseurl }}/projects.html">Technologie</a>
     <a href="{{ site.baseurl }}/gallery.html">Fondateurs</a>
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
@@ -65,8 +65,7 @@ title: Contact
   ">
 
   <label for="message" style="display:block;margin-bottom:8px;color: #00008B;">Message</label>
-   <input 
-  type="text" 
+<textarea 
   id="message" 
   name="message" 
   required 
@@ -79,7 +78,9 @@ title: Contact
     border: 1px solid #ccc; 
     background-color: white;
     color: black;
+    resize: vertical;
   ">
+</textarea>
 
 
   <button type="submit" style="background:#4da6ff;color:#fff;padding:10px 24px;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Send</button>
