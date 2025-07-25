@@ -8,7 +8,7 @@ title: Fondateurs
     <a href="{{ site.baseurl }}">Home</a>
     <a href="{{ site.baseurl }}/about.html">Agenda</a>
     <a href="{{ site.baseurl }}/projects.html">Technologie</a>
-    <a href="{{ site.baseurl }}/gallery.html">Founders</a>
+    <a href="{{ site.baseurl }}/gallery.html">Fondateurs</a>
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
   </div>
 
@@ -56,7 +56,7 @@ title: Fondateurs
     <a href="{{ site.baseurl }}">Home</a>
     <a href="{{ site.baseurl }}/about.html">Agenda</a>
     <a href="{{ site.baseurl }}/projects.html">Technologie</a>
-    <a href="{{ site.baseurl }}/gallery.html">Founders</a>
+    <a href="{{ site.baseurl }}/gallery.html">Fondateurs</a>
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
   </div>
 </div>
