@@ -24,11 +24,11 @@ title: Contact
     muted
     loop
     playsinline
-    style="transform: rotate(90deg); width: 320px; height: 640px; object-fit: cover;"
+    style="transform: rotate(90deg); width: 360px; height: 720px; object-fit: cover;"
   ></video>
   </div>
 
-<form id="contact-form" style="flex: 1; padding: 24px;">
+<form id="contact-form" style="flex: 1; padding: 64px;">
   <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 16px; width: 200px;">
     
     <label for="name" style="color: #00008B;">Name</label>
