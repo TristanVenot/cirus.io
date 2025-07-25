@@ -85,6 +85,7 @@ title: Contact
         width: 100%; 
         background:#4da6ff; 
         color:#fff; 
+        padding: 10px; 
         border: none; 
         border-radius: 6px; 
         font-weight: bold; 

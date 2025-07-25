@@ -544,3 +544,24 @@ nav a:hover {
   top: 2rem; /* stickiness starts when top of viewport hits this */
   align-self: flex-start;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Suravaram&display=swap');
+
+.cirus-font {
+  font-family: 'Suravaram', serif;
+  color: #00008B;
+}
+
+.custom-i {
+  position: relative;
+  color: #00008B;
+}
+
+.custom-i::after {
+  content: '.';
+  color: red;
+  position: absolute;
+  top: -0.4em;
+  left: 0.1em;
+  font-size: 0.75em;
+}
