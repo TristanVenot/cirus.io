@@ -11,7 +11,7 @@ title: Projet Cirus
   <div class="intro-overlay">
     <h1>Welcome to 
       <span class="cirus-font">
-  C<span class="custom-i">i<span class="red-dot">.</span></span>rus
+  Ci<span class="red-dot"></span>rus
 </span>
     </h1>
     <h2>AI and BCI — from researchers to real-world use cases</h2>

@@ -560,10 +560,11 @@ nav a:hover {
 }
 
 .red-dot {
+  content:'.';
   position: absolute;
   top: -0.78em;
   left: 0.02em;
-  font-size: 1.2em;  /* ⬅️ Only this dot is affected */
+  font-size: 1.6em;  /* ⬅️ Only this dot is affected */
   color: red;
   pointer-events: none;
   line-height: 1;
