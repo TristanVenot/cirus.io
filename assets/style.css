@@ -95,11 +95,13 @@ nav a:hover {
 
 .founder-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
-  justify-items: center;
-  align-items: start;
+  padding: 0 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
+
 
 .founder {
   text-align: center;
@@ -613,15 +615,21 @@ nav a:hover {
 }
 
 
-.site-header_button {
-  padding: 1rem;
-  background-color: #ffffff; /* Optional: same dark blue as the nav banner */
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
 
 .site-logo_button {
   height: 40px; /* Adjust as needed */
   cursor: pointer;
+}
+
+.site-header_button {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #001f3f; /* dark blue background */
+  z-index: 1000;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
