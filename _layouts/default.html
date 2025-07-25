@@ -6,16 +6,14 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  
-  <header class="site-header_button"> 
-  <a href="{{ site.baseurl }}">
-    <img src="{{ site.baseurl }}/assets/images/cirus_logo_plain_inverse.png" alt="Cirus logo" class="site-logo_button">
-  </a>
-</header>
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/cirus_logo_plain_inverse.png">
 </head>
 <body>
-  <img src="{{ site.baseurl }}/assets/images/cirus_logo_text.png" class="logo" alt="Logo">
-
+  <header class="site-header_button">
+  <a href="{{ site.baseurl }}">
+    <img src="{{ site.baseurl }}/assets/images/cirus_logo_text.png" alt="Cirus logo" class="site-logo_button">
+  </a>
+</header>
   {% include header.html %}
   <main>
     {{ content }}
@@ -38,7 +36,8 @@
     }
   }
 
-  // Scroll animation for texts and roadmap // <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/cirus_logo_plain_inverse.png">
+  // Scroll animation for texts and roadmap   // <img src="{{ site.baseurl }}/assets/images/cirus_logo_text.png" class="logo" alt="Logo">
+
   document.addEventListener('DOMContentLoaded', function() {
     const scrollEls = document.querySelectorAll('.scroll-animate');
     const roadmap = document.getElementById('roadmap');
