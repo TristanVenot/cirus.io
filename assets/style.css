@@ -550,22 +550,18 @@ nav a:hover {
 .cirus-font {
   font-family: 'Suravaram', serif;
   color: #ffffff;
-  position: relative;
 }
 
 .custom-i {
   position: relative;
-  display: inline-block;
   color: #ffffff;
 }
 
-.red-dot {
-  content:'.';
-  position: absolute;
-  top: -0.78em;
-  left: 0.02em;
-  font-size: 1.6em;  /* ⬅️ Only this dot is affected */
+.custom-i::after {
+  content: '.';
   color: red;
-  pointer-events: none;
-  line-height: 1;
+  position: absolute;
+  top: -0.78em;   /* ⬆️ Raises the dot */
+  left: 0.02em;
+  font-size: 1.2em;
 }
