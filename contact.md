@@ -13,7 +13,7 @@ title: Contact
   </div>
   
 </div>
-<h1 style="text-align:center;  padding: 24px 24px 24px 64px;color: black;font-size: 3rem">Contactez-nous !</h1>
+<h1 style="text-align:center;  padding: 34px 34px 34px 84px;color: black;font-size: 3rem">Contactez-nous !</h1>
 <div class="container_contact">
 
   <div class="video-box_contact">
