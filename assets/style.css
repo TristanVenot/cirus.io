@@ -95,21 +95,18 @@ nav a:hover {
 
 .founder-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 per row */
-  gap: 2rem 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 24px;
-  justify-items: center; /* center each cell’s content */
 }
+
 
 .founder {
   text-align: center;
   color: white;
-  width: 100%;
-  max-width: 250px; /* keeps items aligned and uniform */
 }
-
 
 .founder img {
   width: 150px;
@@ -626,8 +623,13 @@ nav a:hover {
 
 .site-header_button {
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #001f3f; /* dark blue background */
   z-index: 1000;
-  background: transparent;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
