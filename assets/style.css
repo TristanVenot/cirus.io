@@ -561,7 +561,7 @@ nav a:hover {
   content: '.';
   color: red;
   position: absolute;
-  top: -0.65em;   /* ⬆️ Raises the dot */
-  left: 0.08em;
+  top: -0.7em;   /* ⬆️ Raises the dot */
+  left: 0.02em;
   font-size: 0.75em;
 }
