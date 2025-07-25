@@ -6,7 +6,12 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/cirus_logo_plain_inverse.png">
+  
+  <header class="site-header_button"> 
+  <a href="{{ site.baseurl }}">
+    <img src="{{ site.baseurl }}/assets/images/cirus_logo_plain_inverse.png" alt="Cirus logo" class="site-logo_button">
+  </a>
+</header>
 </head>
 <body>
   <img src="{{ site.baseurl }}/assets/images/cirus_logo_text.png" class="logo" alt="Logo">
@@ -33,7 +38,7 @@
     }
   }
 
-  // Scroll animation for texts and roadmap
+  // Scroll animation for texts and roadmap // <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/cirus_logo_plain_inverse.png">
   document.addEventListener('DOMContentLoaded', function() {
     const scrollEls = document.querySelectorAll('.scroll-animate');
     const roadmap = document.getElementById('roadmap');

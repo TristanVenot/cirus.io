@@ -608,3 +608,17 @@ nav a:hover {
 .nav-links_banner  a:hover {
   color: #ff4136; /* A red hover color for contrast */
 }
+
+
+.site-header_button {
+  padding: 1rem;
+  background-color: #ffffff; /* Optional: same dark blue as the nav banner */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.site-logo_button {
+  height: 40px; /* Adjust as needed */
+  cursor: pointer;
+}
