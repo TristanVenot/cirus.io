@@ -24,7 +24,7 @@ title: Contact
     muted
     loop
     playsinline
-    style="transform: rotate(90deg); width: 360px; height: 720px; object-fit: cover;"
+    style="transform: rotate(90deg); width: 720px; height: 480px; object-fit: cover;"
   ></video>
   </div>
 
