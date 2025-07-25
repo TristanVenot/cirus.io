@@ -565,3 +565,46 @@ nav a:hover {
   left: 0.02em;
   font-size: 1.2em;
 }
+
+
+.nav-banner_banner  {
+  position: relative;
+  background-color: #001f3f; /* Dark blue */
+  padding: 2rem 1rem;
+  overflow: hidden;
+}
+
+.banner-background-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.05); /* White with low opacity */
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.nav-links_banner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.nav-links_banner  a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.nav-links_banner  a:hover {
+  color: #ff4136; /* A red hover color for contrast */
+}
