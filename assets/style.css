@@ -549,19 +549,19 @@ nav a:hover {
 
 .cirus-font {
   font-family: 'Suravaram', serif;
-  color: #00008B;
+  color: #ffffff;
 }
 
 .custom-i {
   position: relative;
-  color: #9f9ffd;
+  color: #ffffff;
 }
 
 .custom-i::after {
   content: '.';
   color: red;
   position: absolute;
-  top: -0.75em;   /* ⬆️ Raises the dot */
+  top: -0.78em;   /* ⬆️ Raises the dot */
   left: 0.02em;
-  font-size: 0.78em;
+  font-size: 0.75em;
 }
