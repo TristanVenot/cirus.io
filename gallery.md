@@ -11,8 +11,9 @@ title: Fondateurs
     <a href="{{ site.baseurl }}/gallery.html">Founders</a>
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
   </div>
-  <h1>Qui sommes-nous ?</h1>
 
+ <div class="founder-grid">
+   <h1>Qui sommes-nous ?</h1>
   <div class="founder">
     <img src="{{ site.baseurl }}/assets/images/tv.jpg" alt="CEO">
     <div class="bio">
@@ -43,5 +44,19 @@ title: Fondateurs
       <h2>Vivienne Nguyen</h2>
       <p>Formation business, expertise des entreprises du point de vue juridique, organisationnel et financier. Vivienne soutient l'équipe sur la réglementation et la partie entreprenariale du projet.</p>
     </div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="nav-banner_banner ">
+  <div class="banner-background-text">Cirus</div>
+  <div class="nav-links_banner ">
+    <a href="{{ site.baseurl }}">Home</a>
+    <a href="{{ site.baseurl }}/about.html">Agenda</a>
+    <a href="{{ site.baseurl }}/projects.html">Technologie</a>
+    <a href="{{ site.baseurl }}/gallery.html">Founders</a>
+    <a href="{{ site.baseurl }}/contact.html">Contact</a>
   </div>
 </div>

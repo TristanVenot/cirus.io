@@ -59,3 +59,14 @@ Despite challenges such as low signal-to-noise ratio, inter-individual variabili
 </div>
 
 </div>
+
+<div class="nav-banner_banner ">
+  <div class="banner-background-text">Cirus</div>
+  <div class="nav-links_banner ">
+    <a href="{{ site.baseurl }}/index_en.html">Home</a>
+    <a href="{{ site.baseurl }}/about_en.html">Agenda</a>
+    <a href="{{ site.baseurl }}/projects_en.html">Technology</a>
+    <a href="{{ site.baseurl }}/gallery_en.html">Founders</a>
+    <a href="{{ site.baseurl }}/contact_en.html">Contact</a>
+  </div>
+</div>

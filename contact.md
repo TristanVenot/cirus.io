@@ -96,3 +96,15 @@ title: Contact
 </form>
 </div>
 
+<div class="nav-banner_banner ">
+  <div class="banner-background-text">Cirus</div>
+  <div class="nav-links_banner ">
+    <a href="{{ site.baseurl }}">Home</a>
+    <a href="{{ site.baseurl }}/about.html">Agenda</a>
+    <a href="{{ site.baseurl }}/projects.html">Technologie</a>
+    <a href="{{ site.baseurl }}/gallery.html">Founders</a>
+    <a href="{{ site.baseurl }}/contact.html">Contact</a>
+  </div>
+</div>
+
+

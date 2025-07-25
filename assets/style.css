@@ -83,12 +83,26 @@ nav a:hover {
   color: white;
 }
 
+.founders-page {
+  padding: 2rem;
+}
+
+.founders-page h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.founder-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  align-items: start;
+}
+
 .founder {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 40px;
-  flex-wrap: wrap;
+  text-align: center;
   color: white;
 }
 
@@ -98,29 +112,18 @@ nav a:hover {
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid white;
-}
-
-.founder .bio {
-  flex: 1;
-  min-width: 200px;
+  margin-bottom: 1rem;
 }
 
 .founder .bio h2 {
-  margin: 0 0 10px;
-  font-size: 1.5em;
-  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: white;
 }
 
 .founder .bio p {
-  margin: 0;
+  font-size: 0.9rem;
   color: #cccccc;
-}
-
-.founders-page h1 {
-  text-align: left;         /* Align title to the left */
-  margin-left: 170px;       /* Align with founder bios and images */
-  margin-bottom: 40px;
-  color: rgb(0, 0, 0);
 }
 
 .nav-links {
