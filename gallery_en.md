@@ -11,8 +11,9 @@ title: Founders
     <a href="{{ site.baseurl }}/gallery_en.html">Founders</a>
     <a href="{{ site.baseurl }}/contact_en.html">Contact</a>
   </div>
-  <h1>Who are we?</h1>
-
+  
+<div class="founder-grid">
+<h1>Who are we?</h1>
   <div class="founder">
     <img src="{{ site.baseurl }}/assets/images/tv.jpg" alt="CEO">
     <div class="bio">
