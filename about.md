@@ -56,7 +56,7 @@ title: Agenda
 
       <div class="time-point left" style="top: 88%;">
         <div class="hover-container">
-          <div class="circle">026<br>Levée de fond2</div>
+          <div class="circle">2026<br>Levée de fond</div>
           <div class="hover-text">
             Recherche de financement, optimisation du produit.
           </div>

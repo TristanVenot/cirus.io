@@ -28,62 +28,71 @@ title: Contact
   ></video>
   </div>
 
-  <!-- Your original form on the right -->
-  <form id="contact-form" style="flex: 1; padding: 24px;">
-    <label for="name" style="display:block;margin-bottom:8px;color: #00008B;">Name</label>
+<form id="contact-form" style="flex: 1; padding: 24px;">
+  <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 16px; width: 200px;">
+    
+    <label for="name" style="color: #00008B;">Name</label>
     <input 
-  type="text" 
-  id="name" 
-  name="name" 
-  required 
-  style="
-    width: 200px; 
-    height: 40px; 
-    margin-bottom: 16px; 
-    padding: 8px; 
-    border-radius: 6px; 
-    border: 1px solid #ccc; 
-    background-color: white;
-    color: black;
-  ">
+      type="text" 
+      id="name" 
+      name="name" 
+      required 
+      style="
+        width: 100%; 
+        height: 40px; 
+        padding: 8px; 
+        border-radius: 6px; 
+        border: 1px solid #ccc; 
+        background-color: white;
+        color: black;
+      ">
 
-  <label for="email" style="display:block;margin-bottom:8px;color: #00008B;">Email</label>
+    <label for="email" style="color: #00008B;">Email</label>
     <input 
-  type="text" 
-  id="email" 
-  name="email" 
-  required 
-  style="
-    width: 200px; 
-    height: 40px; 
-    margin-bottom: 16px; 
-    padding: 8px; 
-    border-radius: 6px; 
-    border: 1px solid #ccc; 
-    background-color: white;
-    color: black;
-  ">
+      type="text" 
+      id="email" 
+      name="email" 
+      required 
+      style="
+        width: 100%; 
+        height: 40px; 
+        padding: 8px; 
+        border-radius: 6px; 
+        border: 1px solid #ccc; 
+        background-color: white;
+        color: black;
+      ">
 
-  <label for="message" style="display:block;margin-bottom:8px;color: #00008B;">Message</label>
-<textarea 
-  id="message" 
-  name="message" 
-  required 
-  style="
-    width: 200px; 
-    height: 200px; 
-    margin-bottom: 16px; 
-    padding: 8px; 
-    border-radius: 6px; 
-    border: 1px solid #ccc; 
-    background-color: white;
-    color: black;
-    resize: vertical;
-  ">
-</textarea>
+    <label for="message" style="color: #00008B;">Message</label>
+    <textarea 
+      id="message" 
+      name="message" 
+      required 
+      style="
+        width: 100%; 
+        height: 200px; 
+        padding: 8px; 
+        border-radius: 6px; 
+        border: 1px solid #ccc; 
+        background-color: white;
+        color: black;
+        resize: vertical;
+      "></textarea>
 
-
-  <button type="submit" style="background:#4da6ff;color:#fff;padding:10px 24px;border:none;border-radius:6px;font-weight:bold;cursor:pointer;">Send</button>
+    <button 
+      type="submit" 
+      style="
+        width: 100%; 
+        background:#4da6ff; 
+        color:#fff; 
+        padding: 10px; 
+        border: none; 
+        border-radius: 6px; 
+        font-weight: bold; 
+        cursor: pointer;">
+      Send
+    </button>
+  </div>
 </form>
 </div>
 

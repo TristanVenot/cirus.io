@@ -65,7 +65,7 @@ title: Agenda
 
       <div class="time-point right" style="top: 110%;">
         <div class="hover-container">
-          <div class="circle">027<br>Diversification2</div>
+          <div class="circle">2027<br>Diversification</div>
           <div class="hover-text">
             Industrialization of a product, commercial deployment, internationalization.
           </div>
