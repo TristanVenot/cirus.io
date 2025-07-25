@@ -17,8 +17,9 @@ title: Technologie
   <div class="text-box_techno">
     <h2>Les interfaces Cerveau Machine</h2>
     <p>
-      Une interface cerveau-machine (ICM) non invasive permet à une personne de communiquer avec un dispositif externe sans nécessiter d'implantation chirurgicale. Elle repose sur l'enregistrement de l'activité cérébrale à la surface du cuir chevelu, principalement à l'aide de l'électroencéphalographie (EEG) ou de la magnétoencéphalographie (MEG). Ces systèmes décodent des motifs neuronaux spécifiques associés à différents états mentaux ou processus cognitifs. 
-      Notre approche va au-delà du simple décodage : nous concevons des systèmes robustes, centrés sur l'utilisateur, fiables entre les sessions, et capables de s'adapter à différents états cérébraux, tâches et modalités (EEG ou MEG). Notre expertise couvre à la fois le traitement du signal et les bases neurophysiologiques, afin de transformer les signaux cérébraux bruyants en commandes exploitables en temps réel.
+      Une interface cerveau-machine (ICM) non invasive permet de communiquer avec un appareil externe sans chirurgie, en enregistrant l’activité cérébrale via électroencéphalographie (EEG) ou magnétoencéphalographie (MEG).  
+      Ces systèmes décodent des motifs neuronaux spécifiques associés à différents états mentaux ou processus cognitifs. 
+      Notre approche va plus loin que le simple décodage : nous concevons des systèmes robustes, centrés sur l’utilisateur, adaptables à divers états cérébraux, tâches et modalités. En combinant traitement du signal et connaissances neurophysiologiques, nous transformons les signaux cérébraux en commandes fiables, exploitables en temps réel.
     </p>
   </div>
 
@@ -37,7 +38,7 @@ title: Technologie
   <div class="text-box_techno">
     <h2>Imagination motrice</h2>
     <p>
-      Dans les ICM basées sur l'imagerie motrice, l'un des paradigmes les plus répandus, l'utilisateur imagine un mouvement (par exemple, de la main gauche, de la main droite ou du pied), ce qui entraîne des modifications mesurables des rythmes sensorimoteurs. Ces rythmes correspondent à des oscillations dans les bandes de fréquence mu (8–13 Hz) et bêta (13–30 Hz) enregistrées au niveau du cortex sensorimoteur. Lors de l'imagination d'un mouvement, on observe une désynchronisation liée à l'événement (ERD) dans le cortex controlatéral, suivie d'une resynchronisation (ERS) après la fin de la tâche.
+      Dans les ICM basées sur l’imagerie motrice, l’utilisateur imagine un mouvement (main gauche, droite ou pied), ce qui modifie les rythmes sensorimoteurs du cortex. Ces changements se traduisent par une désynchronisation (ERD) des bandes mu (8–13 Hz) et bêta (13–30 Hz) pendant l’imagination, suivie d’une resynchronisation (ERS) après la tâche.
     </p>
   </div>
 
@@ -46,15 +47,15 @@ title: Technologie
 <div class="text-box_techno">
     <h2>Autres Paradigmes</h2>
     <p>
-D'autres paradigmes ICM bien établis incluent :
+Parmi les paradigmes ICM bien établis :
 
-          Les ICM basées sur le P300 : Elles détectent un pic positif caractéristique de l'EEG environ 300 ms après un stimulus rare ou cible. Elles sont couramment utilisées dans les systèmes de saisie de texte (spellers).
+    P300 : repose sur un pic EEG survenant ~300 ms après un stimulus cible, utilisé notamment dans les systèmes de saisie de texte.
 
-          Les SSVEP (potentiels évoqués visuellement en régime permanent) : Ils reposent sur des stimuli visuels clignotants à des fréquences fixes. Le cortex visuel génère des oscillations à la même fréquence, permettant une sélection rapide et robuste parmi plusieurs cibles.
+    SSVEP : utilise des stimuli visuels clignotants ; le cortex visuel réagit à la même fréquence, permettant une sélection rapide parmi plusieurs options.
 
-          Les potentiels d'erreur (ErrPs) : Ils permettent de détecter si l'utilisateur reconnaît une erreur produite par le système, ce qui est utile pour les interfaces adaptatives ou correctives.
+    Potentiels d'erreur (ErrPs) : détectent si l'utilisateur perçoit une erreur, utiles pour des interfaces adaptatives.
 
-      Les ICM non invasives présentent des défis, notamment un faible rapport signal/bruit, une variabilité interindividuelle, et la nécessité de calibrations régulières. Malgré cela, elles constituent aujourd'hui l'option la plus pratique et la plus scalable pour les applications concrètes—en particulier dans les domaines de l'assistance, de la rééducation neurologique et de l'interaction homme-machine.
+Malgré des défis comme le faible signal/bruit, la variabilité entre individus et le besoin de calibration, les ICM non invasives restent les plus pratiques et évolutives pour des applications concrètes — notamment en assistance, rééducation et interaction homme-machine.
 </p>
 </div>
 
