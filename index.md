@@ -60,7 +60,7 @@ title: Projet Cirus
     <a href="{{ site.baseurl }}">Home</a>
     <a href="{{ site.baseurl }}/about.html">Agenda</a>
     <a href="{{ site.baseurl }}/projects.html">Technologie</a>
-    <a href="{{ site.baseurl }}/gallery.html">Founders</a>
+    <a href="{{ site.baseurl }}/gallery.html">Fondateurs</a>
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
     <a href="{{ site.baseurl }}/index_en.html" class="lang-switch">EN</a>
   </div>

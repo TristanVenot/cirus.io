@@ -27,7 +27,7 @@ title: Agenda
         </div>
       </div>
 
-      <div class="time-point right" style="top: 22%;">
+      <div class="time-point right" style="top: 20%;">
         <div class="hover-container">
           <div class="circle">2025<br>Création de l'équipe et Intégration Inria Studio</div>
           <div class="hover-text">
@@ -36,7 +36,7 @@ title: Agenda
         </div>
       </div>
 
-      <div class="time-point left" style="top: 44%;">
+      <div class="time-point left" style="top: 40%;">
         <div class="hover-container">
           <div class="circle">2025-2026<br>Incubation Inria studio</div>
           <div class="hover-text">
@@ -45,7 +45,7 @@ title: Agenda
         </div>
       </div>
 
-      <div class="time-point right" style="top: 66%;">
+      <div class="time-point right" style="top: 60%;">
         <div class="hover-container">
           <div class="circle">2026<br>Création de l'entreprise</div>
           <div class="hover-text">
@@ -54,7 +54,7 @@ title: Agenda
         </div>
       </div>
 
-      <div class="time-point left" style="top: 88%;">
+      <div class="time-point left" style="top: 80%;">
         <div class="hover-container">
           <div class="circle">2026<br>Levée de fond</div>
           <div class="hover-text">
@@ -63,7 +63,7 @@ title: Agenda
         </div>
       </div>
 
-      <div class="time-point right" style="top: 110%;">
+      <div class="time-point right" style="top: 100%;">
         <div class="hover-container">
           <div class="circle">2027<br>Diversification</div>
           <div class="hover-text">
@@ -82,7 +82,7 @@ title: Agenda
     <a href="{{ site.baseurl }}">Home</a>
     <a href="{{ site.baseurl }}/about.html">Agenda</a>
     <a href="{{ site.baseurl }}/projects.html">Technologie</a>
-    <a href="{{ site.baseurl }}/gallery.html">Founders</a>
+    <a href="{{ site.baseurl }}/gallery.html">Fondateurs</a>
     <a href="{{ site.baseurl }}/contact.html">Contact</a>
   </div>
 </div>
