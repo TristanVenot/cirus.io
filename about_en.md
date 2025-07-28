@@ -27,7 +27,7 @@ title: Agenda
         </div>
       </div>
 
-      <div class="time-point right" style="top: 20%;">
+      <div class="time-point right" style="top: 22%;">
         <div class="hover-container">
           <div class="circle">2025<br>Team creation and integration to Inria Startup Studio</div>
           <div class="hover-text">
@@ -36,7 +36,7 @@ title: Agenda
         </div>
       </div>
 
-      <div class="time-point left" style="top: 40%;">
+      <div class="time-point left" style="top: 44%;">
         <div class="hover-container">
           <div class="circle">2025-2026<br>Inria Startup studio</div>
           <div class="hover-text">
@@ -45,7 +45,7 @@ title: Agenda
         </div>
       </div>
 
-      <div class="time-point right" style="top: 60%;">
+      <div class="time-point right" style="top: 66%;">
         <div class="hover-container">
           <div class="circle">2026<br>Company creation</div>
           <div class="hover-text">
@@ -54,7 +54,7 @@ title: Agenda
         </div>
       </div>
 
-      <div class="time-point left" style="top: 80%;">
+      <div class="time-point left" style="top: 88%;">
         <div class="hover-container">
           <div class="circle">2026<br>Fundraising</div>
           <div class="hover-text">
