@@ -78,7 +78,12 @@
     }
   });
 
-  
+  /* Track mouse position */
+  document.addEventListener('mousemove', function(e) {
+    document.body.style.setProperty('--x', e.clientX + 'px');
+    document.body.style.setProperty('--y', e.clientY + 'px');
+  });
+
 
   // Hide previous section when scrolling down, show when scrolling up
   document.addEventListener('DOMContentLoaded', function() {
