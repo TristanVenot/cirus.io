@@ -4,14 +4,10 @@ title: Projet Cirus
 ---
 
 <!-- Intro Section -->
-<div id="intro" class="intro-section static-bg">
-  <div class="intro-overlay">
-    <h1 class="intro-title">
-      Welcome to <span class="cirus-font">Ci<span class="red-dot"></span>rus</span>
-    </h1>
-    <h2 class="intro-subtitle">AI and BCI — from researchers to real-world use cases</h2>
-    <button onclick="scrollToMain()">Enter</button>
-  </div>
+<div id="intro" class="intro-section">
+  <video autoplay muted loop playsinline id="bg-video" class="fade-video">
+  <source src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4">
+  </video>
 </div>
 
 <!-- Hidden Side Menu -->

@@ -4,66 +4,46 @@ title: Project Cirus
 ---
 
 <!-- Intro Section -->
+<!-- Intro Section -->
 <div id="intro" class="intro-section">
   <video autoplay muted loop playsinline id="bg-video" class="fade-video">
-  <source src="{{ site.baseurl }}/assets/video/neurons.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4">
   </video>
-  <div class="intro-overlay">
-    <h1>Welcome to 
-      <span class="cirus-font">
-  Ci<span class="red-dot"></span>rus
-</span>
-    </h1>
-    <h2>AI and BCI — from researchers to real-world use cases</h2>
-    <button onclick="scrollToMain()">Enter</button>
-  </div>
 </div>
 
 
-<div id="main-content" class="background">
-  <div class="nav-links">
-    <a href="{{ site.baseurl }}/index_en.md">Home</a>
-    <a href="{{ site.baseurl }}/about_en.html">Agenda</a>
-    <a href="{{ site.baseurl }}/projects_en.html">Technology</a>
-    <a href="{{ site.baseurl }}/gallery_en.html">Founders</a>
-    <a href="{{ site.baseurl }}/contact_en.html">Contact</a>
-    <a href="{{ site.baseurl }}/index.html" class="lang-switch">FR</a>
-  </div>  
+<!-- Hidden Side Menu -->
+<div id="side-menu" class="side-menu">
+  <button class="close-btn" onclick="toggleMenu()">×</button>
+  <a href="{{ site.baseurl }}">Home</a>
+  <a href="{{ site.baseurl }}/about.html">Agenda</a>
+  <a href="{{ site.baseurl }}/projects.html">Technologie</a>
+  <a href="{{ site.baseurl }}/gallery.html">Fondateurs</a>
+  <a href="{{ site.baseurl }}/contact.html">Contact</a>
+  <a href="{{ site.baseurl }}/index_en.html" class="lang-switch">EN</a>
+</div>
+<button class="menu-toggle" onclick="toggleMenu()">☰</button>
 
-  <section class="main-section scroll-animate hideable-section">
-    <h1 class="fancy-text">Project Cirus</h1>
+<div id="main-content" class="background">
+  <section class="main-section text-left">
+    <h1 class="fancy-text">Projet Cirus</h1>
     <p class="big-desc">
-      Cirus is a French company operating in the field of brain-computer interfaces (BCI) and artificial intelligence. <br>
+      Cirus is a French company operating in the field of brain-computer interfaces (BCI) and artificial intelligence. 
       The company develops and markets research platforms and associated foundation models for companies target use cases.
     </p>
-   </section>
-
-  <section class="main-section scroll-animate hideable-section">
-    <h1 class="fancy-text"></h1>
   </section>
 
-   <section class="main-section scroll-animate hideable-section">
-    <h1 class="fancy-text"></h1>
+  <section class="main-section text-right">
     <p class="big-desc">
-      Cirus was born from the research work of Arya Yazdan Panah (PhD.) and Tristan Venot (PhD.) at the Paris Brain Institute in the Inria Aramis and Nerv research teams specializing in neuroimaging and brain-machine interfaces. <br>
+      Cirus was born from the research work of Arya Yazdan Panah (PhD.) and Tristan Venot (PhD.) at the Paris Brain Institute in the Inria Aramis and Nerv research teams specializing in neuroimaging and brain-machine interfaces.
       Tristan (CEO) and Arya (CTO) joined the Inria Studio for this year to create Cirus.
     </p>
   </section>
-  <section class="main-section scroll-animate hideable-section">
-    <h1 class="fancy-text"></h1>
-  </section>
 </div>
 
-<div class="nav-banner_banner ">
+<div class="nav-banner_banner">
   <div class="banner-background-text">Cirus</div>
-  <div class="nav-links_banner ">
-    <a href="{{ site.baseurl }}/index_en.html">Home</a>
-    <a href="{{ site.baseurl }}/about_en.html">Agenda</a>
-    <a href="{{ site.baseurl }}/projects_en.html">Technology</a>
-    <a href="{{ site.baseurl }}/gallery_en.html">Founders</a>
-    <a href="{{ site.baseurl }}/contact_en.html">Contact</a>
-    <a href="{{ site.baseurl }}/index.html" class="lang-switch">FR</a>
-  </div>
 </div>
+
 
 
