@@ -4,7 +4,8 @@ title: Projet Cirus
 ---
 
 <!-- Intro Section -->
-<div id="intro" class="intro-section">
+
+<div id="intro" class="intro-section static-bg">
   <video autoplay muted loop playsinline id="bg-video" class="fade-video">
   <source src="{{ site.baseurl }}/assets/video/BCI_explication.mp4" type="video/mp4">
   </video>
