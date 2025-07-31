@@ -4,7 +4,16 @@ title: Project Cirus
 ---
 
 <!-- Intro Section -->
-
+<!-- Intro Section -->
+<div id="intro" class="intro-section static-bg">
+  <div class="intro-overlay">
+    <h1 class="intro-title">
+      Welcome to <span class="cirus-font">Ci<span class="red-dot"></span>rus</span>
+    </h1>
+    <h2 class="intro-subtitle">AI and BCI — from researchers to real-world use cases</h2>
+    <button onclick="scrollToMain()">Enter</button>
+  </div>
+</div>
 
 <!-- Hidden Side Menu -->
 <div id="side-menu" class="side-menu">
